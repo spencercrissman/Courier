@@ -1,0 +1,2707 @@
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.LanguageItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.LanguageItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.StyleSheetItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.StyleSheetItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.PropertyItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.PropertyItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FolderItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FolderItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FileItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FileItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DataTypeProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DataTypeProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.TemplateItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.TemplateItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DictionaryItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DictionaryItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.LanguageItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.LanguageItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.StyleSheetItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.StyleSheetItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.PropertyItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.PropertyItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FolderItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FolderItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FileItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FileItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DataTypeProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DataTypeProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.TemplateItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.TemplateItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DictionaryItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DictionaryItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.LanguageItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.LanguageItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.StyleSheetItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.StyleSheetItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.PropertyItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.PropertyItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FolderItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FolderItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FileItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FileItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DataTypeProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DataTypeProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.TemplateItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.TemplateItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DictionaryItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DictionaryItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.LanguageItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.LanguageItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.StyleSheetItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.StyleSheetItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.PropertyItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.PropertyItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FolderItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FolderItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.FileItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.FileItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DataTypeProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DataTypeProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.TemplateItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.TemplateItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DocumentTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DocumentTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.DictionaryItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.DictionaryItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MacroPropertyTypeItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Error
+Can't initialize provider 'Umbraco.Courier.ItemProviders.MediaItemProvider': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'businesslogic, Version=1.0.4086.28097, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Den angivne fil blev ikke fundet.
+   at Umbraco.Courier.ItemProviders.MediaItemProvider..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at Umbraco.Courier.Core.ProviderCollection`1.registerProviders(IEnumerable`1 types) in C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\Umbraco.Courier.Core\ProviderModel\ProviderCollection.cs:line 122
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+Item id: en-US is null:False
+
+Debug
+en-US C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\language\en-US.courier
+
+Debug
+Item id: ~/media/assets is null:False
+
+Debug
+~/media/assets C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\mediaassets.courier
+
+Debug
+Item id: ~/bin is null:False
+
+Debug
+~/bin C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\bin.courier
+
+Debug
+Item id: ~/usercontrols/website is null:False
+
+Debug
+~/usercontrols/website C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\usercontrolswebsite.courier
+
+Debug
+Item id: ~/usercontrols/dashboards is null:False
+
+Debug
+~/usercontrols/dashboards C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\usercontrolsdashboards.courier
+
+Debug
+Item id: XSLTsearch is null:False
+
+Debug
+XSLTsearch C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\XSLTsearch.courier
+
+Debug
+Item id: [XSLTsearch]Button-Search is null:False
+
+Debug
+[XSLTsearch]Button-Search C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Button-Search.courier
+
+Debug
+Item id: [XSLTsearch]Description-Context is null:False
+
+Debug
+[XSLTsearch]Description-Context C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Description-Context.courier
+
+Debug
+Item id: [XSLTsearch]Description-ContextUnavailable is null:False
+
+Debug
+[XSLTsearch]Description-ContextUnavailable C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Description-ContextUnavailable.courier
+
+Debug
+Item id: [XSLTsearch]Heading-SearchResults is null:False
+
+Debug
+[XSLTsearch]Heading-SearchResults C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Heading-SearchResults.courier
+
+Debug
+Item id: [XSLTsearch]Navigation-Next is null:False
+
+Debug
+[XSLTsearch]Navigation-Next C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Navigation-Next.courier
+
+Debug
+Item id: [XSLTsearch]Navigation-Previous is null:False
+
+Debug
+[XSLTsearch]Navigation-Previous C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Navigation-Previous.courier
+
+Debug
+Item id: [XSLTsearch]PageRange-ShowingResults is null:False
+
+Debug
+[XSLTsearch]PageRange-ShowingResults C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]PageRange-ShowingResults.courier
+
+Debug
+Item id: [XSLTsearch]PageRange-To is null:False
+
+Debug
+[XSLTsearch]PageRange-To C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]PageRange-To.courier
+
+Debug
+Item id: [XSLTsearch]Score-Score is null:False
+
+Debug
+[XSLTsearch]Score-Score C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Score-Score.courier
+
+Debug
+Item id: [XSLTsearch]Stats-PagesIn is null:False
+
+Debug
+[XSLTsearch]Stats-PagesIn C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-PagesIn.courier
+
+Debug
+Item id: [XSLTsearch]Stats-Searched is null:False
+
+Debug
+[XSLTsearch]Stats-Searched C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-Searched.courier
+
+Debug
+Item id: [XSLTsearch]Stats-Seconds is null:False
+
+Debug
+[XSLTsearch]Stats-Seconds C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-Seconds.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Matches is null:False
+
+Debug
+[XSLTsearch]Summary-Matches C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Matches.courier
+
+Debug
+Item id: [XSLTsearch]Summary-NoMatchesWereFoundFor is null:False
+
+Debug
+[XSLTsearch]Summary-NoMatchesWereFoundFor C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-NoMatchesWereFoundFor.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Page is null:False
+
+Debug
+[XSLTsearch]Summary-Page C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Page.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Pages is null:False
+
+Debug
+[XSLTsearch]Summary-Pages C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Pages.courier
+
+Debug
+Item id: [XSLTsearch]Summary-YourSearchFor is null:False
+
+Debug
+[XSLTsearch]Summary-YourSearchFor C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-YourSearchFor.courier
+
+Debug
+Item id: admin is null:False
+
+Debug
+admin C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\admin.courier
+
+Debug
+Item id: base-min is null:False
+
+Debug
+base-min C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\base-min.courier
+
+Debug
+Item id: default is null:False
+
+Debug
+default C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\default.courier
+
+Debug
+Item id: f0bc4bfb-b499-40d6-ba86-058885a5178c is null:False
+
+Debug
+Label_-92 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Label_-92.courier
+
+Debug
+Item id: 84c6b441-31df-4ffe-b67e-67d5bc3ae65a is null:False
+
+Debug
+Upload_-90 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Upload_-90.courier
+
+Debug
+Item id: c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3 is null:False
+
+Debug
+Textbox multiple_-89 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Textbox multiple_-89.courier
+
+Debug
+Item id: 0cc0eba1-9960-42c9-bf9b-60e150b429ae is null:False
+
+Debug
+Textstring_-88 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Textstring_-88.courier
+
+Debug
+Item id: ca90c950-0aff-4e72-b976-a30b1ac57dad is null:False
+
+Debug
+Richtext editor_-87 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Richtext editor_-87.courier
+
+Debug
+Item id: 2e6d3631-066e-44b8-aec4-96f09099b2b5 is null:False
+
+Debug
+Numeric_-51 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Numeric_-51.courier
+
+Debug
+Item id: 92897bc6-a5f3-4ffe-ae27-f2e7e33dda49 is null:False
+
+Debug
+True/false_-49 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Truefalse_-49.courier
+
+Debug
+Item id: fbaf13a8-4036-41f2-93a3-974f678c312a is null:False
+
+Debug
+Checkbox list_-43 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Checkbox list_-43.courier
+
+Debug
+Item id: 0b6a45e7-44ba-430d-9da5-4e46060b9e03 is null:False
+
+Debug
+Dropdown_-42 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Dropdown_-42.courier
+
+Debug
+Item id: 5046194e-4237-453c-a547-15db3a07c4e1 is null:False
+
+Debug
+Date Picker_-41 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Date Picker_-41.courier
+
+Debug
+Item id: bb5f57c9-ce2b-4bb9-b697-4caca783a805 is null:False
+
+Debug
+Radiobox_-40 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Radiobox_-40.courier
+
+Debug
+Item id: f38f0ac7-1d27-439c-9f3f-089cd8825a53 is null:False
+
+Debug
+Dropdown multiple_-39 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Dropdown multiple_-39.courier
+
+Debug
+Item id: fd9f1447-6c61-4a7c-9595-5aa39147d318 is null:False
+
+Debug
+Folder Browser_-38 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Folder Browser_-38.courier
+
+Debug
+Item id: 0225af17-b302-49cb-9176-b9f35cab9c17 is null:False
+
+Debug
+Approved Color_-37 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Approved Color_-37.courier
+
+Debug
+Item id: e4d66c0f-b935-4200-81f0-025f7256b89a is null:False
+
+Debug
+Date Picker with time_-36 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Date Picker with time_-36.courier
+
+Debug
+Item id: a6857c73-d6e9-480c-b6e6-f15f6ad11125 is null:False
+
+Debug
+Content Picker_1034 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Content Picker_1034.courier
+
+Debug
+Item id: 93929b9a-93a2-4e2a-b239-d99334440a59 is null:False
+
+Debug
+Media Picker_1035 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Media Picker_1035.courier
+
+Debug
+Item id: 2b24165f-9782-4aa3-b459-1de4a4d21f60 is null:False
+
+Debug
+Member Picker_1036 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Member Picker_1036.courier
+
+Debug
+Item id: 1251c96c-185c-4e9b-93f4-b48205573cbd is null:False
+
+Debug
+Simple Editor_1038 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Simple Editor_1038.courier
+
+Debug
+Item id: 06f349a9-c949-4b6a-8660-59c10451af42 is null:False
+
+Debug
+Ultimate Picker_1039 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Ultimate Picker_1039.courier
+
+Debug
+Item id: 21e798da-e06e-4eda-a511-ed257f78d4fa is null:False
+
+Debug
+Related Links_1040 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Related Links_1040.courier
+
+Debug
+Item id: b6b73142-b9c1-4bf8-a16d-e1c23320b549 is null:False
+
+Debug
+Tags_1041 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Tags_1041.courier
+
+Debug
+Item id: 0a452bd5-83f9-4bc3-8403-1286e13fb77e is null:False
+
+Debug
+Macro Container_1042 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Macro Container_1042.courier
+
+Debug
+Item id: 1df9f033-e6d4-451f-b8d2-e0cbc50a836f is null:False
+
+Debug
+Image Cropper_1043 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Image Cropper_1043.courier
+
+Debug
+Item id: 390c133e-98f6-453c-985a-ff52826e6461 is null:False
+
+Debug
+My New type_1057 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\My New type_1057.courier
+
+Debug
+Item id: f8e638e3-cceb-4092-a1bf-9a1004ce6173 is null:False
+
+Debug
+dildtype_1062 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\dildtype_1062.courier
+
+Debug
+Item id: 7fb3476c-b910-4abf-8d60-c13aa288fb3d is null:False
+
+Debug
+Content Panel Picker_1064 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Content Panel Picker_1064.courier
+
+Debug
+Item id: 68451201-1aff-4b78-862b-f8a5027dcbb2 is null:False
+
+Debug
+Page Picker_1065 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Page Picker_1065.courier
+
+Debug
+Item id: 50c78efc-11d9-42c5-9fe3-81fdc4ba3da7 is null:False
+
+Debug
+Slide Picker_1066 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Slide Picker_1066.courier
+
+Debug
+Item id: Affiliations is null:False
+
+Debug
+Affiliations C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Affiliations.courier
+
+Debug
+Item id: ArticleList is null:False
+
+Debug
+ArticleList C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ArticleList.courier
+
+Debug
+Item id: ClientAreaRedirect is null:False
+
+Debug
+ClientAreaRedirect C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ClientAreaRedirect.courier
+
+Debug
+Item id: EmailForm is null:False
+
+Debug
+EmailForm C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\EmailForm.courier
+
+Debug
+Item id: ImageOutput is null:False
+
+Debug
+ImageOutput C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ImageOutput.courier
+
+Debug
+Item id: LoggedInHeader is null:False
+
+Debug
+LoggedInHeader C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\LoggedInHeader.courier
+
+Debug
+Item id: Login is null:False
+
+Debug
+Login C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Login.courier
+
+Debug
+Item id: Map is null:False
+
+Debug
+Map C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Map.courier
+
+Debug
+Item id: Navigation is null:False
+
+Debug
+Navigation C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Navigation.courier
+
+Debug
+Item id: RelatedLinksList is null:False
+
+Debug
+RelatedLinksList C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\RelatedLinksList.courier
+
+Debug
+Item id: SearchForm is null:False
+
+Debug
+SearchForm C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\SearchForm.courier
+
+Debug
+Item id: SidePanels is null:False
+
+Debug
+SidePanels C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\SidePanels.courier
+
+Debug
+Item id: Sitemap is null:False
+
+Debug
+Sitemap C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Sitemap.courier
+
+Debug
+Item id: Slideshow is null:False
+
+Debug
+Slideshow C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Slideshow.courier
+
+Debug
+Item id: XSLTsearch is null:False
+
+Debug
+XSLTsearch C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\XSLTsearch.courier
+
+Debug
+Item id: contentPicker is null:False
+
+Debug
+contentPicker C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\contentPicker.courier
+
+Debug
+Item id: text is null:False
+
+Debug
+text C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\text.courier
+
+Debug
+Item id: bool is null:False
+
+Debug
+bool C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\bool.courier
+
+Debug
+Item id: number is null:False
+
+Debug
+number C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\number.courier
+
+Debug
+Item id: contentTree is null:False
+
+Debug
+contentTree C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\contentTree.courier
+
+Debug
+Item id: 8383c665-7e50-45a5-b215-96bd0de685f0 is null:True
+
+Debug
+Item id: c17e1f45-14ed-47d8-bd8c-2fcd7cf3d9f9 is null:True
+
+Debug
+Item id: b1669f9c-59f7-43a1-bcd1-d5af89c58604 is null:True
+
+Debug
+Item id: 3e0616c0-6c72-41e8-bcfb-6e31e6d5f91e is null:True
+
+Debug
+Item id: b9c29b74-6448-40b1-81b3-88099fff7a27 is null:True
+
+Debug
+Item id: 6999be3d-56f9-4716-a5ee-772b2b42e0df is null:True
+
+Debug
+Item id: 7a43153c-c347-441a-9a58-81fa813b2fa4 is null:True
+
+Debug
+Item id: 63a839c8-bbcc-4747-9cb7-48e89edd020e is null:True
+
+Debug
+Item id: f35d974b-26b3-4777-a888-92ce6fe6544f is null:True
+
+Debug
+Item id: File is null:False
+
+Debug
+File C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\File.courier
+
+Debug
+Item id: Folder is null:False
+
+Debug
+Folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\Folder.courier
+
+Debug
+Item id: Image is null:False
+
+Debug
+Image C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\Image.courier
+
+Debug
+Item id: Article is null:False
+
+Debug
+Article C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Article.courier
+
+Debug
+Item id: Base is null:False
+
+Debug
+Base C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Base.courier
+
+Debug
+Item id: ClientArea is null:False
+
+Debug
+ClientArea C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ClientArea.courier
+
+Debug
+Item id: ContentMaster is null:False
+
+Debug
+ContentMaster C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentMaster.courier
+
+Debug
+Item id: ContentPanel is null:False
+
+Debug
+ContentPanel C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentPanel.courier
+
+Debug
+Item id: ContentPanels is null:False
+
+Debug
+ContentPanels C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentPanels.courier
+
+Debug
+Item id: dildoDild is null:False
+
+Debug
+dildoDild C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\dildoDild.courier
+
+Debug
+Item id: folder is null:False
+
+Debug
+folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\folder.courier
+
+Debug
+Item id: Homepage is null:False
+
+Debug
+Homepage C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Homepage.courier
+
+Debug
+Item id: RelatedLink is null:False
+
+Debug
+RelatedLink C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\RelatedLink.courier
+
+Debug
+Item id: Slide is null:False
+
+Debug
+Slide C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Slide.courier
+
+Debug
+Item id: Slideshow is null:False
+
+Debug
+Slideshow C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Slideshow.courier
+
+Debug
+Item id: Standard is null:False
+
+Debug
+Standard C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Standard.courier
+
+Debug
+Item id: Test is null:False
+
+Debug
+Test C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Test.courier
+
+Debug
+Item id: 3349f42f-4b8f-40fd-8be4-8682cc94070f is null:False
+
+Debug
+Home_1091 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Home_1091.courier
+
+Debug
+Item id: 2e13cc47-b843-4975-877d-2096efed3167 is null:False
+
+Debug
+Home_1092 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Home_1092.courier
+
+Debug
+Item id: cc14534e-d4fe-414c-bfa1-c0695cebf91b is null:False
+
+Debug
+About_1093 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\About_1093.courier
+
+Debug
+Item id: b333da03-e52e-4d3c-97fb-41aa4f53ea36 is null:False
+
+Debug
+Sub Navigation 1_1094 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sub Navigation 1_1094.courier
+
+Debug
+Item id: 6da54666-9803-4539-9c87-328fbb33ac77 is null:False
+
+Debug
+3rd level nav 1_1095 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\3rd level nav 1_1095.courier
+
+Debug
+Item id: cccb75cb-6df4-4071-8262-34a82ad9eb99 is null:False
+
+Debug
+3rd level nav 2_1096 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\3rd level nav 2_1096.courier
+
+Debug
+Item id: a409563b-f203-4a58-91f1-caf6df24beeb is null:False
+
+Debug
+Sub Navigation 2_1097 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sub Navigation 2_1097.courier
+
+Debug
+Item id: 6141b441-8fde-413d-b85f-d94d1af8d81b is null:False
+
+Debug
+Products_1098 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Products_1098.courier
+
+Debug
+Item id: dff67d16-6c41-43d7-b040-80c4957e50d5 is null:False
+
+Debug
+News_1099 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News_1099.courier
+
+Debug
+Item id: 110d13d0-c21d-4458-873e-2ae7bfb58765 is null:False
+
+Debug
+News Item 1_1100 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 1_1100.courier
+
+Debug
+Item id: 0046e15b-3e3a-4371-b5f4-b5ac2a46f929 is null:False
+
+Debug
+News Item 2_1101 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 2_1101.courier
+
+Debug
+Item id: a673d439-6d83-4665-912a-07e33034282a is null:False
+
+Debug
+News Item 3_1102 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 3_1102.courier
+
+Debug
+Item id: 34586481-c351-4fc3-b20c-d9a50b1b618d is null:False
+
+Debug
+Clients_1103 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Clients_1103.courier
+
+Debug
+Item id: 1e4365cd-35ae-4c9a-89c0-0ad49268d9d5 is null:False
+
+Debug
+Contact Us_1104 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Contact Us_1104.courier
+
+Debug
+Item id: 90def339-0abd-41f1-86a8-83d5ca21f788 is null:False
+
+Debug
+Thank You_1105 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Thank You_1105.courier
+
+Debug
+Item id: 83304c8b-e8db-4c91-befc-ac5c02ddf41b is null:False
+
+Debug
+Search_1106 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Search_1106.courier
+
+Debug
+Item id: 1f4d5b28-fe1e-46fa-bac5-af9a457274e4 is null:False
+
+Debug
+Client Area_1107 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area_1107.courier
+
+Debug
+Item id: e3cb3c0c-d50c-49e6-a01d-62be2070b001 is null:False
+
+Debug
+Client Area 1_1108 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area 1_1108.courier
+
+Debug
+Item id: ef72cb02-0b5b-4cca-85ca-122761aa9661 is null:False
+
+Debug
+Page 1_1109 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Page 1_1109.courier
+
+Debug
+Item id: 47df0361-c057-4dda-9b1f-c0cf100eb3f7 is null:False
+
+Debug
+Client Area 2_1110 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area 2_1110.courier
+
+Debug
+Item id: 1fe4bf06-bc40-43fc-88c7-0a4fdf4ec446 is null:False
+
+Debug
+Sitemap_1111 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sitemap_1111.courier
+
+Debug
+Item id: f726e861-0c2a-4d1e-9dc8-0edd51594a13 is null:False
+
+Debug
+Content Panels_1112 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Content Panels_1112.courier
+
+Debug
+Item id: da437538-78c7-4f9f-9ba8-5ec05ccb3d94 is null:False
+
+Debug
+Introductory Offers_1113 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Introductory Offers_1113.courier
+
+Debug
+Item id: 8bdf5c10-ce7d-4b72-ab4a-9080dcc916bb is null:False
+
+Debug
+Slideshow_1114 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Slideshow_1114.courier
+
+Debug
+Item id: fde6dc0d-fe47-4373-a340-49ed9fd979c5 is null:False
+
+Debug
+Purple Hat_1115 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Purple Hat_1115.courier
+
+Debug
+Item id: 9c21112d-cfd1-4991-af43-7b1714d8d499 is null:False
+
+Debug
+Red Dice_1116 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Red Dice_1116.courier
+
+Debug
+Item id: 020edf82-2f81-4728-8a52-047cb0d961ea is null:False
+
+Debug
+Umbraco Speechbubble_1117 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Umbraco Speechbubble_1117.courier
+
+Debug
+Item id: 6123ad92-e569-47b2-8176-c20ad7aecdd2 is null:False
+
+Debug
+Login_1118 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Login_1118.courier
+
+Debug
+Item id: e2997b6a-7bcf-486d-b768-c51e0547b002 is null:False
+
+Debug
+Insufficent Access_1119 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Insufficent Access_1119.courier
+
+Debug
+Item id: d602b2d9-b172-49a7-a8d8-1fce2ebd516d is null:False
+
+Debug
+asdadsasd_1132 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\asdadsasd_1132.courier
+
+Debug
+Item id: 3349f42f-4b8f-40fd-8be4-8682cc94070f is null:False
+
+Debug
+Home_1091_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Home_1091_Document_data.courier
+
+Debug
+Item id: 2e13cc47-b843-4975-877d-2096efed3167 is null:False
+
+Debug
+Home_1092_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Home_1092_Document_data.courier
+
+Debug
+Item id: cc14534e-d4fe-414c-bfa1-c0695cebf91b is null:False
+
+Debug
+About_1093_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\About_1093_Document_data.courier
+
+Debug
+Item id: b333da03-e52e-4d3c-97fb-41aa4f53ea36 is null:False
+
+Debug
+Sub Navigation 1_1094_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sub Navigation 1_1094_Document_data.courier
+
+Debug
+Item id: 6da54666-9803-4539-9c87-328fbb33ac77 is null:False
+
+Debug
+3rd level nav 1_1095_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\3rd level nav 1_1095_Document_data.courier
+
+Debug
+Item id: cccb75cb-6df4-4071-8262-34a82ad9eb99 is null:False
+
+Debug
+3rd level nav 2_1096_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\3rd level nav 2_1096_Document_data.courier
+
+Debug
+Item id: a409563b-f203-4a58-91f1-caf6df24beeb is null:False
+
+Debug
+Sub Navigation 2_1097_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sub Navigation 2_1097_Document_data.courier
+
+Debug
+Item id: 6141b441-8fde-413d-b85f-d94d1af8d81b is null:False
+
+Debug
+Products_1098_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Products_1098_Document_data.courier
+
+Debug
+Item id: dff67d16-6c41-43d7-b040-80c4957e50d5 is null:False
+
+Debug
+News_1099_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News_1099_Document_data.courier
+
+Debug
+Item id: 110d13d0-c21d-4458-873e-2ae7bfb58765 is null:False
+
+Debug
+News Item 1_1100_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 1_1100_Document_data.courier
+
+Debug
+Item id: 0046e15b-3e3a-4371-b5f4-b5ac2a46f929 is null:False
+
+Debug
+News Item 2_1101_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 2_1101_Document_data.courier
+
+Debug
+Item id: a673d439-6d83-4665-912a-07e33034282a is null:False
+
+Debug
+News Item 3_1102_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 3_1102_Document_data.courier
+
+Debug
+Item id: 34586481-c351-4fc3-b20c-d9a50b1b618d is null:False
+
+Debug
+Clients_1103_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Clients_1103_Document_data.courier
+
+Debug
+Item id: 1e4365cd-35ae-4c9a-89c0-0ad49268d9d5 is null:False
+
+Debug
+Contact Us_1104_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Contact Us_1104_Document_data.courier
+
+Debug
+Item id: 90def339-0abd-41f1-86a8-83d5ca21f788 is null:False
+
+Debug
+Thank You_1105_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Thank You_1105_Document_data.courier
+
+Debug
+Item id: 83304c8b-e8db-4c91-befc-ac5c02ddf41b is null:False
+
+Debug
+Search_1106_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Search_1106_Document_data.courier
+
+Debug
+Item id: 1f4d5b28-fe1e-46fa-bac5-af9a457274e4 is null:False
+
+Debug
+Client Area_1107_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area_1107_Document_data.courier
+
+Debug
+Item id: e3cb3c0c-d50c-49e6-a01d-62be2070b001 is null:False
+
+Debug
+Client Area 1_1108_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area 1_1108_Document_data.courier
+
+Debug
+Item id: ef72cb02-0b5b-4cca-85ca-122761aa9661 is null:False
+
+Debug
+Page 1_1109_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Page 1_1109_Document_data.courier
+
+Debug
+Item id: 47df0361-c057-4dda-9b1f-c0cf100eb3f7 is null:False
+
+Debug
+Client Area 2_1110_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area 2_1110_Document_data.courier
+
+Debug
+Item id: 1fe4bf06-bc40-43fc-88c7-0a4fdf4ec446 is null:False
+
+Debug
+Sitemap_1111_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sitemap_1111_Document_data.courier
+
+Debug
+Item id: f726e861-0c2a-4d1e-9dc8-0edd51594a13 is null:False
+
+Debug
+Content Panels_1112_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Content Panels_1112_Document_data.courier
+
+Debug
+Item id: da437538-78c7-4f9f-9ba8-5ec05ccb3d94 is null:False
+
+Debug
+Introductory Offers_1113_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Introductory Offers_1113_Document_data.courier
+
+Debug
+Item id: 8bdf5c10-ce7d-4b72-ab4a-9080dcc916bb is null:False
+
+Debug
+Slideshow_1114_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Slideshow_1114_Document_data.courier
+
+Debug
+Item id: fde6dc0d-fe47-4373-a340-49ed9fd979c5 is null:False
+
+Debug
+Purple Hat_1115_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Purple Hat_1115_Document_data.courier
+
+Debug
+Item id: 9c21112d-cfd1-4991-af43-7b1714d8d499 is null:False
+
+Debug
+Red Dice_1116_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Red Dice_1116_Document_data.courier
+
+Debug
+Item id: 020edf82-2f81-4728-8a52-047cb0d961ea is null:False
+
+Debug
+Umbraco Speechbubble_1117_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Umbraco Speechbubble_1117_Document_data.courier
+
+Debug
+Item id: 6123ad92-e569-47b2-8176-c20ad7aecdd2 is null:False
+
+Debug
+Login_1118_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Login_1118_Document_data.courier
+
+Debug
+Item id: e2997b6a-7bcf-486d-b768-c51e0547b002 is null:False
+
+Debug
+Insufficent Access_1119_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Insufficent Access_1119_Document_data.courier
+
+Debug
+Item id: d602b2d9-b172-49a7-a8d8-1fce2ebd516d is null:False
+
+Debug
+asdadsasd_1132_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\asdadsasd_1132_Document_data.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/mediaMulti.gif is null:False
+
+Debug
+umbracoimagesumbracomediaMulti.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracomediaMulti.gif.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/folder.png is null:False
+
+Debug
+umbracoimagesthumbnailsfolder.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsfolder.png.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/folder.gif is null:False
+
+Debug
+umbracoimagesumbracofolder.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracofolder.gif.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/mediaPhoto.gif is null:False
+
+Debug
+umbracoimagesumbracomediaPhoto.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracomediaPhoto.gif.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/doc.png is null:False
+
+Debug
+umbracoimagesthumbnailsdoc.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsdoc.png.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/docWithImage.png is null:False
+
+Debug
+umbracoimagesthumbnailsdocWithImage.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsdocWithImage.png.courier
+
+Debug
+Item id: Standard is null:False
+
+Debug
+Standard C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Standard.courier
+
+Debug
+Item id: Client Area is null:False
+
+Debug
+Client Area C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Client Area.courier
+
+Debug
+Item id: ContentPanel is null:False
+
+Debug
+ContentPanel C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\ContentPanel.courier
+
+Debug
+Item id: folder is null:False
+
+Debug
+folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\folder.courier
+
+Debug
+Item id: Homepage is null:False
+
+Debug
+Homepage C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Homepage.courier
+
+Debug
+Item id: Article List is null:False
+
+Debug
+Article List C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Article List.courier
+
+Debug
+Item id: Search is null:False
+
+Debug
+Search C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Search.courier
+
+Debug
+Item id: Test is null:False
+
+Debug
+Test C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Test.courier
+
+Debug
+Item id: Master is null:False
+
+Debug
+Master C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Master.courier
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory
+
+Debug
+Item id: en-US is null:False
+
+Debug
+en-US C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\language\en-US.courier
+
+Debug
+Item id: ~/media/assets is null:False
+
+Debug
+~/media/assets C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\mediaassets.courier
+
+Debug
+Item id: ~/bin is null:False
+
+Debug
+~/bin C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\bin.courier
+
+Debug
+Item id: ~/usercontrols/website is null:False
+
+Debug
+~/usercontrols/website C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\usercontrolswebsite.courier
+
+Debug
+Item id: ~/usercontrols/dashboards is null:False
+
+Debug
+~/usercontrols/dashboards C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\folders\usercontrolsdashboards.courier
+
+Debug
+Item id: XSLTsearch is null:False
+
+Debug
+XSLTsearch C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\XSLTsearch.courier
+
+Debug
+Item id: [XSLTsearch]Button-Search is null:False
+
+Debug
+[XSLTsearch]Button-Search C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Button-Search.courier
+
+Debug
+Item id: [XSLTsearch]Description-Context is null:False
+
+Debug
+[XSLTsearch]Description-Context C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Description-Context.courier
+
+Debug
+Item id: [XSLTsearch]Description-ContextUnavailable is null:False
+
+Debug
+[XSLTsearch]Description-ContextUnavailable C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Description-ContextUnavailable.courier
+
+Debug
+Item id: [XSLTsearch]Heading-SearchResults is null:False
+
+Debug
+[XSLTsearch]Heading-SearchResults C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Heading-SearchResults.courier
+
+Debug
+Item id: [XSLTsearch]Navigation-Next is null:False
+
+Debug
+[XSLTsearch]Navigation-Next C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Navigation-Next.courier
+
+Debug
+Item id: [XSLTsearch]Navigation-Previous is null:False
+
+Debug
+[XSLTsearch]Navigation-Previous C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Navigation-Previous.courier
+
+Debug
+Item id: [XSLTsearch]PageRange-ShowingResults is null:False
+
+Debug
+[XSLTsearch]PageRange-ShowingResults C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]PageRange-ShowingResults.courier
+
+Debug
+Item id: [XSLTsearch]PageRange-To is null:False
+
+Debug
+[XSLTsearch]PageRange-To C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]PageRange-To.courier
+
+Debug
+Item id: [XSLTsearch]Score-Score is null:False
+
+Debug
+[XSLTsearch]Score-Score C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Score-Score.courier
+
+Debug
+Item id: [XSLTsearch]Stats-PagesIn is null:False
+
+Debug
+[XSLTsearch]Stats-PagesIn C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-PagesIn.courier
+
+Debug
+Item id: [XSLTsearch]Stats-Searched is null:False
+
+Debug
+[XSLTsearch]Stats-Searched C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-Searched.courier
+
+Debug
+Item id: [XSLTsearch]Stats-Seconds is null:False
+
+Debug
+[XSLTsearch]Stats-Seconds C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Stats-Seconds.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Matches is null:False
+
+Debug
+[XSLTsearch]Summary-Matches C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Matches.courier
+
+Debug
+Item id: [XSLTsearch]Summary-NoMatchesWereFoundFor is null:False
+
+Debug
+[XSLTsearch]Summary-NoMatchesWereFoundFor C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-NoMatchesWereFoundFor.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Page is null:False
+
+Debug
+[XSLTsearch]Summary-Page C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Page.courier
+
+Debug
+Item id: [XSLTsearch]Summary-Pages is null:False
+
+Debug
+[XSLTsearch]Summary-Pages C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-Pages.courier
+
+Debug
+Item id: [XSLTsearch]Summary-YourSearchFor is null:False
+
+Debug
+[XSLTsearch]Summary-YourSearchFor C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\Dictionary\[XSLTsearch]Summary-YourSearchFor.courier
+
+Debug
+Item id: admin is null:False
+
+Debug
+admin C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\admin.courier
+
+Debug
+Item id: base-min is null:False
+
+Debug
+base-min C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\base-min.courier
+
+Debug
+Item id: default is null:False
+
+Debug
+default C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\stylesheets\default.courier
+
+Debug
+Item id: f0bc4bfb-b499-40d6-ba86-058885a5178c is null:False
+
+Debug
+Label_-92 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Label_-92.courier
+
+Debug
+Item id: 84c6b441-31df-4ffe-b67e-67d5bc3ae65a is null:False
+
+Debug
+Upload_-90 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Upload_-90.courier
+
+Debug
+Item id: c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3 is null:False
+
+Debug
+Textbox multiple_-89 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Textbox multiple_-89.courier
+
+Debug
+Item id: 0cc0eba1-9960-42c9-bf9b-60e150b429ae is null:False
+
+Debug
+Textstring_-88 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Textstring_-88.courier
+
+Debug
+Item id: ca90c950-0aff-4e72-b976-a30b1ac57dad is null:False
+
+Debug
+Richtext editor_-87 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Richtext editor_-87.courier
+
+Debug
+Item id: 2e6d3631-066e-44b8-aec4-96f09099b2b5 is null:False
+
+Debug
+Numeric_-51 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Numeric_-51.courier
+
+Debug
+Item id: 92897bc6-a5f3-4ffe-ae27-f2e7e33dda49 is null:False
+
+Debug
+True/false_-49 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Truefalse_-49.courier
+
+Debug
+Item id: fbaf13a8-4036-41f2-93a3-974f678c312a is null:False
+
+Debug
+Checkbox list_-43 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Checkbox list_-43.courier
+
+Debug
+Item id: 0b6a45e7-44ba-430d-9da5-4e46060b9e03 is null:False
+
+Debug
+Dropdown_-42 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Dropdown_-42.courier
+
+Debug
+Item id: 5046194e-4237-453c-a547-15db3a07c4e1 is null:False
+
+Debug
+Date Picker_-41 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Date Picker_-41.courier
+
+Debug
+Item id: bb5f57c9-ce2b-4bb9-b697-4caca783a805 is null:False
+
+Debug
+Radiobox_-40 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Radiobox_-40.courier
+
+Debug
+Item id: f38f0ac7-1d27-439c-9f3f-089cd8825a53 is null:False
+
+Debug
+Dropdown multiple_-39 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Dropdown multiple_-39.courier
+
+Debug
+Item id: fd9f1447-6c61-4a7c-9595-5aa39147d318 is null:False
+
+Debug
+Folder Browser_-38 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Folder Browser_-38.courier
+
+Debug
+Item id: 0225af17-b302-49cb-9176-b9f35cab9c17 is null:False
+
+Debug
+Approved Color_-37 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Approved Color_-37.courier
+
+Debug
+Item id: e4d66c0f-b935-4200-81f0-025f7256b89a is null:False
+
+Debug
+Date Picker with time_-36 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Date Picker with time_-36.courier
+
+Debug
+Item id: a6857c73-d6e9-480c-b6e6-f15f6ad11125 is null:False
+
+Debug
+Content Picker_1034 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Content Picker_1034.courier
+
+Debug
+Item id: 93929b9a-93a2-4e2a-b239-d99334440a59 is null:False
+
+Debug
+Media Picker_1035 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Media Picker_1035.courier
+
+Debug
+Item id: 2b24165f-9782-4aa3-b459-1de4a4d21f60 is null:False
+
+Debug
+Member Picker_1036 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Member Picker_1036.courier
+
+Debug
+Item id: 1251c96c-185c-4e9b-93f4-b48205573cbd is null:False
+
+Debug
+Simple Editor_1038 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Simple Editor_1038.courier
+
+Debug
+Item id: 06f349a9-c949-4b6a-8660-59c10451af42 is null:False
+
+Debug
+Ultimate Picker_1039 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Ultimate Picker_1039.courier
+
+Debug
+Item id: 21e798da-e06e-4eda-a511-ed257f78d4fa is null:False
+
+Debug
+Related Links_1040 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Related Links_1040.courier
+
+Debug
+Item id: b6b73142-b9c1-4bf8-a16d-e1c23320b549 is null:False
+
+Debug
+Tags_1041 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Tags_1041.courier
+
+Debug
+Item id: 0a452bd5-83f9-4bc3-8403-1286e13fb77e is null:False
+
+Debug
+Macro Container_1042 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Macro Container_1042.courier
+
+Debug
+Item id: 1df9f033-e6d4-451f-b8d2-e0cbc50a836f is null:False
+
+Debug
+Image Cropper_1043 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Image Cropper_1043.courier
+
+Debug
+Item id: 390c133e-98f6-453c-985a-ff52826e6461 is null:False
+
+Debug
+My New type_1057 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\My New type_1057.courier
+
+Debug
+Item id: f8e638e3-cceb-4092-a1bf-9a1004ce6173 is null:False
+
+Debug
+dildtype_1062 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\dildtype_1062.courier
+
+Debug
+Item id: 7fb3476c-b910-4abf-8d60-c13aa288fb3d is null:False
+
+Debug
+Content Panel Picker_1064 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Content Panel Picker_1064.courier
+
+Debug
+Item id: 68451201-1aff-4b78-862b-f8a5027dcbb2 is null:False
+
+Debug
+Page Picker_1065 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Page Picker_1065.courier
+
+Debug
+Item id: 50c78efc-11d9-42c5-9fe3-81fdc4ba3da7 is null:False
+
+Debug
+Slide Picker_1066 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\datatypes\Slide Picker_1066.courier
+
+Debug
+Item id: Affiliations is null:False
+
+Debug
+Affiliations C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Affiliations.courier
+
+Debug
+Item id: ArticleList is null:False
+
+Debug
+ArticleList C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ArticleList.courier
+
+Debug
+Item id: ClientAreaRedirect is null:False
+
+Debug
+ClientAreaRedirect C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ClientAreaRedirect.courier
+
+Debug
+Item id: EmailForm is null:False
+
+Debug
+EmailForm C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\EmailForm.courier
+
+Debug
+Item id: ImageOutput is null:False
+
+Debug
+ImageOutput C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\ImageOutput.courier
+
+Debug
+Item id: LoggedInHeader is null:False
+
+Debug
+LoggedInHeader C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\LoggedInHeader.courier
+
+Debug
+Item id: Login is null:False
+
+Debug
+Login C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Login.courier
+
+Debug
+Item id: Map is null:False
+
+Debug
+Map C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Map.courier
+
+Debug
+Item id: Navigation is null:False
+
+Debug
+Navigation C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Navigation.courier
+
+Debug
+Item id: RelatedLinksList is null:False
+
+Debug
+RelatedLinksList C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\RelatedLinksList.courier
+
+Debug
+Item id: SearchForm is null:False
+
+Debug
+SearchForm C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\SearchForm.courier
+
+Debug
+Item id: SidePanels is null:False
+
+Debug
+SidePanels C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\SidePanels.courier
+
+Debug
+Item id: Sitemap is null:False
+
+Debug
+Sitemap C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Sitemap.courier
+
+Debug
+Item id: Slideshow is null:False
+
+Debug
+Slideshow C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\Slideshow.courier
+
+Debug
+Item id: XSLTsearch is null:False
+
+Debug
+XSLTsearch C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macros\XSLTsearch.courier
+
+Debug
+Item id: contentPicker is null:False
+
+Debug
+contentPicker C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\contentPicker.courier
+
+Debug
+Item id: text is null:False
+
+Debug
+text C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\text.courier
+
+Debug
+Item id: bool is null:False
+
+Debug
+bool C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\bool.courier
+
+Debug
+Item id: number is null:False
+
+Debug
+number C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\number.courier
+
+Debug
+Item id: contentTree is null:False
+
+Debug
+contentTree C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\macropropertytypes\contentTree.courier
+
+Debug
+Item id: 8383c665-7e50-45a5-b215-96bd0de685f0 is null:True
+
+Debug
+Item id: c17e1f45-14ed-47d8-bd8c-2fcd7cf3d9f9 is null:True
+
+Debug
+Item id: b1669f9c-59f7-43a1-bcd1-d5af89c58604 is null:True
+
+Debug
+Item id: 3e0616c0-6c72-41e8-bcfb-6e31e6d5f91e is null:True
+
+Debug
+Item id: b9c29b74-6448-40b1-81b3-88099fff7a27 is null:True
+
+Debug
+Item id: 6999be3d-56f9-4716-a5ee-772b2b42e0df is null:True
+
+Debug
+Item id: 7a43153c-c347-441a-9a58-81fa813b2fa4 is null:True
+
+Debug
+Item id: 63a839c8-bbcc-4747-9cb7-48e89edd020e is null:True
+
+Debug
+Item id: f35d974b-26b3-4777-a888-92ce6fe6544f is null:True
+
+Debug
+Item id: File is null:False
+
+Debug
+File C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\File.courier
+
+Debug
+Item id: Folder is null:False
+
+Debug
+Folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\Folder.courier
+
+Debug
+Item id: Image is null:False
+
+Debug
+Image C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\mediatypes\Image.courier
+
+Debug
+Item id: Article is null:False
+
+Debug
+Article C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Article.courier
+
+Debug
+Item id: Base is null:False
+
+Debug
+Base C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Base.courier
+
+Debug
+Item id: ClientArea is null:False
+
+Debug
+ClientArea C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ClientArea.courier
+
+Debug
+Item id: ContentMaster is null:False
+
+Debug
+ContentMaster C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentMaster.courier
+
+Debug
+Item id: ContentPanel is null:False
+
+Debug
+ContentPanel C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentPanel.courier
+
+Debug
+Item id: ContentPanels is null:False
+
+Debug
+ContentPanels C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\ContentPanels.courier
+
+Debug
+Item id: dildoDild is null:False
+
+Debug
+dildoDild C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\dildoDild.courier
+
+Debug
+Item id: folder is null:False
+
+Debug
+folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\folder.courier
+
+Debug
+Item id: Homepage is null:False
+
+Debug
+Homepage C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Homepage.courier
+
+Debug
+Item id: RelatedLink is null:False
+
+Debug
+RelatedLink C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\RelatedLink.courier
+
+Debug
+Item id: Slide is null:False
+
+Debug
+Slide C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Slide.courier
+
+Debug
+Item id: Slideshow is null:False
+
+Debug
+Slideshow C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Slideshow.courier
+
+Debug
+Item id: Standard is null:False
+
+Debug
+Standard C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Standard.courier
+
+Debug
+Item id: Test is null:False
+
+Debug
+Test C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documenttypes\Test.courier
+
+Debug
+Item id: 3349f42f-4b8f-40fd-8be4-8682cc94070f is null:False
+
+Debug
+Home_1091 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Home_1091.courier
+
+Debug
+Item id: 2e13cc47-b843-4975-877d-2096efed3167 is null:False
+
+Debug
+Home_1092 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Home_1092.courier
+
+Debug
+Item id: cc14534e-d4fe-414c-bfa1-c0695cebf91b is null:False
+
+Debug
+About_1093 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\About_1093.courier
+
+Debug
+Item id: b333da03-e52e-4d3c-97fb-41aa4f53ea36 is null:False
+
+Debug
+Sub Navigation 1_1094 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sub Navigation 1_1094.courier
+
+Debug
+Item id: 6da54666-9803-4539-9c87-328fbb33ac77 is null:False
+
+Debug
+3rd level nav 1_1095 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\3rd level nav 1_1095.courier
+
+Debug
+Item id: cccb75cb-6df4-4071-8262-34a82ad9eb99 is null:False
+
+Debug
+3rd level nav 2_1096 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\3rd level nav 2_1096.courier
+
+Debug
+Item id: a409563b-f203-4a58-91f1-caf6df24beeb is null:False
+
+Debug
+Sub Navigation 2_1097 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sub Navigation 2_1097.courier
+
+Debug
+Item id: 6141b441-8fde-413d-b85f-d94d1af8d81b is null:False
+
+Debug
+Products_1098 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Products_1098.courier
+
+Debug
+Item id: dff67d16-6c41-43d7-b040-80c4957e50d5 is null:False
+
+Debug
+News_1099 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News_1099.courier
+
+Debug
+Item id: 110d13d0-c21d-4458-873e-2ae7bfb58765 is null:False
+
+Debug
+News Item 1_1100 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 1_1100.courier
+
+Debug
+Item id: 0046e15b-3e3a-4371-b5f4-b5ac2a46f929 is null:False
+
+Debug
+News Item 2_1101 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 2_1101.courier
+
+Debug
+Item id: a673d439-6d83-4665-912a-07e33034282a is null:False
+
+Debug
+News Item 3_1102 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\News Item 3_1102.courier
+
+Debug
+Item id: 34586481-c351-4fc3-b20c-d9a50b1b618d is null:False
+
+Debug
+Clients_1103 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Clients_1103.courier
+
+Debug
+Item id: 1e4365cd-35ae-4c9a-89c0-0ad49268d9d5 is null:False
+
+Debug
+Contact Us_1104 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Contact Us_1104.courier
+
+Debug
+Item id: 90def339-0abd-41f1-86a8-83d5ca21f788 is null:False
+
+Debug
+Thank You_1105 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Thank You_1105.courier
+
+Debug
+Item id: 83304c8b-e8db-4c91-befc-ac5c02ddf41b is null:False
+
+Debug
+Search_1106 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Search_1106.courier
+
+Debug
+Item id: 1f4d5b28-fe1e-46fa-bac5-af9a457274e4 is null:False
+
+Debug
+Client Area_1107 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area_1107.courier
+
+Debug
+Item id: e3cb3c0c-d50c-49e6-a01d-62be2070b001 is null:False
+
+Debug
+Client Area 1_1108 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area 1_1108.courier
+
+Debug
+Item id: ef72cb02-0b5b-4cca-85ca-122761aa9661 is null:False
+
+Debug
+Page 1_1109 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Page 1_1109.courier
+
+Debug
+Item id: 47df0361-c057-4dda-9b1f-c0cf100eb3f7 is null:False
+
+Debug
+Client Area 2_1110 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Client Area 2_1110.courier
+
+Debug
+Item id: 1fe4bf06-bc40-43fc-88c7-0a4fdf4ec446 is null:False
+
+Debug
+Sitemap_1111 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Sitemap_1111.courier
+
+Debug
+Item id: f726e861-0c2a-4d1e-9dc8-0edd51594a13 is null:False
+
+Debug
+Content Panels_1112 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Content Panels_1112.courier
+
+Debug
+Item id: da437538-78c7-4f9f-9ba8-5ec05ccb3d94 is null:False
+
+Debug
+Introductory Offers_1113 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Introductory Offers_1113.courier
+
+Debug
+Item id: 8bdf5c10-ce7d-4b72-ab4a-9080dcc916bb is null:False
+
+Debug
+Slideshow_1114 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Slideshow_1114.courier
+
+Debug
+Item id: fde6dc0d-fe47-4373-a340-49ed9fd979c5 is null:False
+
+Debug
+Purple Hat_1115 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Purple Hat_1115.courier
+
+Debug
+Item id: 9c21112d-cfd1-4991-af43-7b1714d8d499 is null:False
+
+Debug
+Red Dice_1116 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Red Dice_1116.courier
+
+Debug
+Item id: 020edf82-2f81-4728-8a52-047cb0d961ea is null:False
+
+Debug
+Umbraco Speechbubble_1117 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Umbraco Speechbubble_1117.courier
+
+Debug
+Item id: 6123ad92-e569-47b2-8176-c20ad7aecdd2 is null:False
+
+Debug
+Login_1118 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Login_1118.courier
+
+Debug
+Item id: e2997b6a-7bcf-486d-b768-c51e0547b002 is null:False
+
+Debug
+Insufficent Access_1119 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\Insufficent Access_1119.courier
+
+Debug
+Item id: d602b2d9-b172-49a7-a8d8-1fce2ebd516d is null:False
+
+Debug
+asdadsasd_1132 C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\documents\asdadsasd_1132.courier
+
+Debug
+Item id: 3349f42f-4b8f-40fd-8be4-8682cc94070f is null:False
+
+Debug
+Home_1091_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Home_1091_Document_data.courier
+
+Debug
+Item id: 2e13cc47-b843-4975-877d-2096efed3167 is null:False
+
+Debug
+Home_1092_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Home_1092_Document_data.courier
+
+Debug
+Item id: cc14534e-d4fe-414c-bfa1-c0695cebf91b is null:False
+
+Debug
+About_1093_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\About_1093_Document_data.courier
+
+Debug
+Item id: b333da03-e52e-4d3c-97fb-41aa4f53ea36 is null:False
+
+Debug
+Sub Navigation 1_1094_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sub Navigation 1_1094_Document_data.courier
+
+Debug
+Item id: 6da54666-9803-4539-9c87-328fbb33ac77 is null:False
+
+Debug
+3rd level nav 1_1095_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\3rd level nav 1_1095_Document_data.courier
+
+Debug
+Item id: cccb75cb-6df4-4071-8262-34a82ad9eb99 is null:False
+
+Debug
+3rd level nav 2_1096_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\3rd level nav 2_1096_Document_data.courier
+
+Debug
+Item id: a409563b-f203-4a58-91f1-caf6df24beeb is null:False
+
+Debug
+Sub Navigation 2_1097_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sub Navigation 2_1097_Document_data.courier
+
+Debug
+Item id: 6141b441-8fde-413d-b85f-d94d1af8d81b is null:False
+
+Debug
+Products_1098_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Products_1098_Document_data.courier
+
+Debug
+Item id: dff67d16-6c41-43d7-b040-80c4957e50d5 is null:False
+
+Debug
+News_1099_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News_1099_Document_data.courier
+
+Debug
+Item id: 110d13d0-c21d-4458-873e-2ae7bfb58765 is null:False
+
+Debug
+News Item 1_1100_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 1_1100_Document_data.courier
+
+Debug
+Item id: 0046e15b-3e3a-4371-b5f4-b5ac2a46f929 is null:False
+
+Debug
+News Item 2_1101_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 2_1101_Document_data.courier
+
+Debug
+Item id: a673d439-6d83-4665-912a-07e33034282a is null:False
+
+Debug
+News Item 3_1102_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\News Item 3_1102_Document_data.courier
+
+Debug
+Item id: 34586481-c351-4fc3-b20c-d9a50b1b618d is null:False
+
+Debug
+Clients_1103_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Clients_1103_Document_data.courier
+
+Debug
+Item id: 1e4365cd-35ae-4c9a-89c0-0ad49268d9d5 is null:False
+
+Debug
+Contact Us_1104_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Contact Us_1104_Document_data.courier
+
+Debug
+Item id: 90def339-0abd-41f1-86a8-83d5ca21f788 is null:False
+
+Debug
+Thank You_1105_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Thank You_1105_Document_data.courier
+
+Debug
+Item id: 83304c8b-e8db-4c91-befc-ac5c02ddf41b is null:False
+
+Debug
+Search_1106_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Search_1106_Document_data.courier
+
+Debug
+Item id: 1f4d5b28-fe1e-46fa-bac5-af9a457274e4 is null:False
+
+Debug
+Client Area_1107_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area_1107_Document_data.courier
+
+Debug
+Item id: e3cb3c0c-d50c-49e6-a01d-62be2070b001 is null:False
+
+Debug
+Client Area 1_1108_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area 1_1108_Document_data.courier
+
+Debug
+Item id: ef72cb02-0b5b-4cca-85ca-122761aa9661 is null:False
+
+Debug
+Page 1_1109_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Page 1_1109_Document_data.courier
+
+Debug
+Item id: 47df0361-c057-4dda-9b1f-c0cf100eb3f7 is null:False
+
+Debug
+Client Area 2_1110_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Client Area 2_1110_Document_data.courier
+
+Debug
+Item id: 1fe4bf06-bc40-43fc-88c7-0a4fdf4ec446 is null:False
+
+Debug
+Sitemap_1111_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Sitemap_1111_Document_data.courier
+
+Debug
+Item id: f726e861-0c2a-4d1e-9dc8-0edd51594a13 is null:False
+
+Debug
+Content Panels_1112_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Content Panels_1112_Document_data.courier
+
+Debug
+Item id: da437538-78c7-4f9f-9ba8-5ec05ccb3d94 is null:False
+
+Debug
+Introductory Offers_1113_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Introductory Offers_1113_Document_data.courier
+
+Debug
+Item id: 8bdf5c10-ce7d-4b72-ab4a-9080dcc916bb is null:False
+
+Debug
+Slideshow_1114_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Slideshow_1114_Document_data.courier
+
+Debug
+Item id: fde6dc0d-fe47-4373-a340-49ed9fd979c5 is null:False
+
+Debug
+Purple Hat_1115_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Purple Hat_1115_Document_data.courier
+
+Debug
+Item id: 9c21112d-cfd1-4991-af43-7b1714d8d499 is null:False
+
+Debug
+Red Dice_1116_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Red Dice_1116_Document_data.courier
+
+Debug
+Item id: 020edf82-2f81-4728-8a52-047cb0d961ea is null:False
+
+Debug
+Umbraco Speechbubble_1117_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Umbraco Speechbubble_1117_Document_data.courier
+
+Debug
+Item id: 6123ad92-e569-47b2-8176-c20ad7aecdd2 is null:False
+
+Debug
+Login_1118_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Login_1118_Document_data.courier
+
+Debug
+Item id: e2997b6a-7bcf-486d-b768-c51e0547b002 is null:False
+
+Debug
+Insufficent Access_1119_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\Insufficent Access_1119_Document_data.courier
+
+Debug
+Item id: d602b2d9-b172-49a7-a8d8-1fce2ebd516d is null:False
+
+Debug
+asdadsasd_1132_Document_data C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\properties\asdadsasd_1132_Document_data.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/mediaMulti.gif is null:False
+
+Debug
+umbracoimagesumbracomediaMulti.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracomediaMulti.gif.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/folder.png is null:False
+
+Debug
+umbracoimagesthumbnailsfolder.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsfolder.png.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/folder.gif is null:False
+
+Debug
+umbracoimagesumbracofolder.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracofolder.gif.courier
+
+Debug
+Item id: ~/umbraco/images/umbraco/mediaPhoto.gif is null:False
+
+Debug
+umbracoimagesumbracomediaPhoto.gif C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesumbracomediaPhoto.gif.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/doc.png is null:False
+
+Debug
+umbracoimagesthumbnailsdoc.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsdoc.png.courier
+
+Debug
+Item id: ~/umbraco/images/thumbnails/docWithImage.png is null:False
+
+Debug
+umbracoimagesthumbnailsdocWithImage.png C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\files\umbracoimagesthumbnailsdocWithImage.png.courier
+
+Debug
+Item id: Standard is null:False
+
+Debug
+Standard C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Standard.courier
+
+Debug
+Item id: Client Area is null:False
+
+Debug
+Client Area C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Client Area.courier
+
+Debug
+Item id: ContentPanel is null:False
+
+Debug
+ContentPanel C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\ContentPanel.courier
+
+Debug
+Item id: folder is null:False
+
+Debug
+folder C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\folder.courier
+
+Debug
+Item id: Homepage is null:False
+
+Debug
+Homepage C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Homepage.courier
+
+Debug
+Item id: Article List is null:False
+
+Debug
+Article List C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Article List.courier
+
+Debug
+Item id: Search is null:False
+
+Debug
+Search C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Search.courier
+
+Debug
+Item id: Test is null:False
+
+Debug
+Test C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Test.courier
+
+Debug
+Item id: Master is null:False
+
+Debug
+Master C:\Users\per\Projects\Umbraco PRO\Courier 2\Branches\Prototype\CourierTeamDev\PackagingTool\bin\Debug\testingDirectory\revision\templates\Master.courier
+

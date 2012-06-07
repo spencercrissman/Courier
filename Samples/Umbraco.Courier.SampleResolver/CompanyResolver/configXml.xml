@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Sample config snippet to put in the /config/courier.config under itemDataResolvers, this tells courier what properties are using the company picker-->
+
+<companyPickers>
+    <!-- add property alias for those properties that use the company picker -->
+    <add>company</add>
+</companyPickers>

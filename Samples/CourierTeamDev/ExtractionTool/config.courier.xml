@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <settings>
+        <user>admin</user>
+        <password>1234</password>
+        <passwordEncoding>Hashed</passwordEncoding>
+        <url>http://dev1.local</url>
+    </settings>
+    <sync>
+        <add source="..\developement\masterpages" pattern="*.master" target="resources\masterpages" />
+        <add source="..\developement\xslt" pattern="*.xslt" target="resources\xslt" />
+        <add source="..\developement\usercontrols" pattern="*.ascx" target="resources\usercontrols" />
+        <add source="..\bin\project.dll" target="resources\usercontrols" />
+    </sync>    
+</config>

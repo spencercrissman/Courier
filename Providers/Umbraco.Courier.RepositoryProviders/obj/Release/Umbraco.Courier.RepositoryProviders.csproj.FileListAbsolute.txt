@@ -1,0 +1,16 @@
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.RepositoryProviders.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.RepositoryProviders.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\businesslogic.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.Core.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.Providers.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Licensing.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\interfaces.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\umbraco.DataLayer.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\MySql.Data.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.Core.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Courier.Providers.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\obj\Release\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\obj\Release\Umbraco.Courier.RepositoryProviders.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.RepositoryProviders\obj\Release\Umbraco.Courier.RepositoryProviders.pdb

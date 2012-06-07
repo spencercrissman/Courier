@@ -1,0 +1,11 @@
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Repositories.Jupiter.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Repositories.Jupiter.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Core.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Repositories.Core.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Licensing.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Core.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Courier.Repositories.Core.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\bin\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\obj\Release\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\obj\Release\Umbraco.Courier.Repositories.Jupiter.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.Repositories.Jupiter\obj\Release\Umbraco.Courier.Repositories.Jupiter.pdb

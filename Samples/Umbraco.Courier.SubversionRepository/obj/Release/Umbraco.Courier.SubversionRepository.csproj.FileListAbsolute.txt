@@ -1,0 +1,15 @@
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Courier.SubversionRepository.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Courier.SubversionRepository.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpSvn.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Courier.Core.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Licensing.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Courier.Core.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpSvn.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpSvn.xml
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpSvn-DB44-20-Win32.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpSvn-SASL21-23-Win32.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\bin\SharpPlink-Win32.svnExe
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\obj\Release\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\obj\Release\Umbraco.Courier.SubversionRepository.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Umbraco.Courier.SubversionRepository\obj\Release\Umbraco.Courier.SubversionRepository.pdb
