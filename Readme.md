@@ -34,3 +34,26 @@ In process:
 Yes, we accept pull requests, the source represented here, is the current source tip in the courier development repository. Its handled seperately to devide core and provider libraries.
 
 
+##Current Code samples and projects
+
+###Damp Resolver
+Sample Propertyresolver for Digibiz advanced mediapicker
+
+###Courier Teamdev
+Code for deplying multiple revisions, and sample setup for nant and teamcity
+
+###Umbraco.Courier.SampleResolver
+Item data resolver
+
+###Umbraco.Courier.SubversionRepository
+Sample subversion repository to submit revisions directly to SVN from courier
+
+###Umbraco.Courier.DataResolvers
+The built-in dataresolvers, included in the core of Courier 2
+
+###Umbraco.Courier.ExtractionConsole
+Sample Console application for doing packaging and extraction from the commandline
+
+###Umbraco.Courier.Ucomponents
+Library for resolving uComponents datatypes
+
