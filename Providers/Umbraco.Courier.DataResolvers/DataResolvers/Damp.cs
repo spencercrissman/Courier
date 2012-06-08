@@ -6,7 +6,7 @@ using System.Web;
 using Umbraco.Courier.Core.Helpers;
 using Umbraco.Courier.ItemProviders;
 
-namespace Umbraco.Courier.DataResolvers.DataResolvers
+namespace Umbraco.Courier.DataResolvers
 {
     public class DampResolver : PropertyDataResolverProvider
     {

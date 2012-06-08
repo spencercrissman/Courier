@@ -44,3 +44,15 @@ C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Couri
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\ICSharpCode.SharpZipLib.dll
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\TidyNet.dll
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\businesslogic.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\umbraco.providers.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\interfaces.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\umbraco.DataLayer.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\cms.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\MySql.Data.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\ClientDependency.Core.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\HtmlAgilityPack.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\TidyNet.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.RepositoryProviders\bin\Umbraco.Licensing.pdb

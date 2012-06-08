@@ -6,7 +6,7 @@ using Umbraco.Courier.Core;
 using Umbraco.Courier.ItemProviders;
 using Umbraco.Courier.Core.Helpers;
 
-namespace Umbraco.Courier.DataResolvers.DataResolvers
+namespace Umbraco.Courier.DataResolvers
 {
     public class EmbeddedContent : PropertyDataResolverProvider
     {

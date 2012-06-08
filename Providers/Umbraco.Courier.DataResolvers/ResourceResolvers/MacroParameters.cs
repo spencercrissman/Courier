@@ -10,7 +10,7 @@ using System.Text;
 using Umbraco.Courier.Core.Diagnostics.Logging;
 using System.Text.RegularExpressions;
 
-namespace Umbraco.Courier.DataResolvers.ResourceResolvers
+namespace Umbraco.Courier.ResourceResolvers
 {
     public class MacroParameters : ResourceDataResolverProvider
     {

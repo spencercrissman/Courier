@@ -86,3 +86,8 @@ C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Couri
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\obj\Release\Umbraco.Courier.CacheHandler.V4.dll
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\obj\Release\Umbraco.Courier.CacheHandler.V4.pdb
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\obj\Release\Umbraco.Courier.CacheHandler.V4.csprojResolveAssemblyReference.cache
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\bin\Release\businesslogic.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\bin\Release\cms.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\bin\Release\interfaces.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\bin\Release\umbraco.dll
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.CacheHandler.V4\bin\Release\Umbraco.Licensing.pdb

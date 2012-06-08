@@ -23,7 +23,7 @@ Documentation is currently being updated and put into markdown instead of those 
 * Dataresolvers
 * Item event handlers
 * Event Queues
-* Xml depency libraries
+* Xml dependency libraries
 
 In process:
 

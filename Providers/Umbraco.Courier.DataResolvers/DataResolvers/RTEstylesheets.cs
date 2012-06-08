@@ -5,7 +5,7 @@ using System.Web;
 using Umbraco.Courier.Core;
 using Umbraco.Courier.ItemProviders;
 
-namespace Umbraco.Courier.DataResolvers.DataResolvers
+namespace Umbraco.Courier.DataResolvers
 {
     public class RTEstylesheets : PropertyDataResolverProvider
     {

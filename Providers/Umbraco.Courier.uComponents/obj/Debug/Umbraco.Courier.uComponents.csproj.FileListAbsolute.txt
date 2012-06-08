@@ -131,3 +131,4 @@ C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Couri
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.uComponents\obj\Debug\Umbraco.Courier.uComponents.dll
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.uComponents\obj\Debug\Umbraco.Courier.uComponents.pdb
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Providers\Umbraco.Courier.uComponents\bin\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Providers\Umbraco.Courier.uComponents\bin\Umbraco.Licensing.pdb

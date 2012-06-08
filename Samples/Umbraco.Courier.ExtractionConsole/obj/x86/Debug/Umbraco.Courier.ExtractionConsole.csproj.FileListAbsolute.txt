@@ -34,3 +34,4 @@ C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.exe
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.pdb
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.pdb
+C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.pdb
