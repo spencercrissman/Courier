@@ -24,3 +24,13 @@ C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Co
 C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.dll
 C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.Core.pdb
 C:\Users\per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.exe.config
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.exe
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.pdb
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.Core.dll
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.dll
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.Core.pdb
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.csprojResolveAssemblyReference.cache
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.exe
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.pdb
+C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.pdb

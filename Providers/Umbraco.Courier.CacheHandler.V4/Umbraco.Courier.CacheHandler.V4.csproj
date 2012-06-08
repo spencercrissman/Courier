@@ -32,13 +32,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="businesslogic">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
     </Reference>
     <Reference Include="cms">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\cms.dll</HintPath>
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\cms.dll</HintPath>
     </Reference>
     <Reference Include="interfaces">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\interfaces.dll</HintPath>
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\interfaces.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,7 +48,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="umbraco">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\umbraco.dll</HintPath>
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\umbraco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

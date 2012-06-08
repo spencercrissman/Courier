@@ -40,8 +40,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="businesslogic, Version=1.0.4086.28097, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
+    <Reference Include="businesslogic">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -62,8 +62,8 @@
     <Reference Include="Umbraco.Licensing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\3rd party assemblies\Umbraco.Licensing.dll</HintPath>
     </Reference>
-    <Reference Include="umbraco.providers, Version=1.0.4089.21639, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Umbraco.Courier.Core\References\Umbraco Core\umbraco.providers.dll</HintPath>
+    <Reference Include="umbraco.providers">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\umbraco.providers.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>

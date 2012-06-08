@@ -11,6 +11,7 @@ namespace Umbraco.Courier.ExtractionConsole
     {
         static void Extract(string[] args)
         {
+
             string error;
 
             Console.Write("Building dependency graph from directory " + directory + "...");
@@ -20,11 +21,14 @@ namespace Umbraco.Courier.ExtractionConsole
                 var engine = new Core.Extraction.RevisionExtraction(directory);
                 engine.ExtractingItem += new EventHandler<Core.ItemEventArgs>(ex_ExtractingItem);
                 engine.ExtractingItemResources += new EventHandler<Core.ItemEventArgs>(engine_ExtractingItemResources);
+                
                 //engine.Context.QueueEvent("RefreshCache", null, null, Umbraco.Courier.Core.Enums.EventManagerSystemQueues.DeploymentComplete);
                 //engine.PopulateGraph();
                 //engine.Extract();
-                
 
+                engine.PopulateGraph();
+
+                    
                 int totalItems = engine.ExtractionGraph.CountUnique();
 
                 Console.Write("DONE, " + totalItems.ToString() + " items graphed");
@@ -187,6 +191,12 @@ namespace Umbraco.Courier.ExtractionConsole
             Console.WriteLine("");
 
             Console.Write(Umbraco.Courier.Core.Context.Current.SettingsFilePath );
+
+            foreach (var repo in Umbraco.Courier.Core.ProviderModel.RepositoryProviderCollection.Instance.GetProviders())
+            {
+                Console.WriteLine("Repo provider loaded: " + repo.Name + "/" + repo.GetType().ToString());
+            }
+            Console.WriteLine("-------------------");
 
 
             if (mode == "extract")

@@ -39,14 +39,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="businesslogic, Version=1.0.4086.28097, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
+    <Reference Include="businesslogic">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\businesslogic.dll</HintPath>
     </Reference>
-    <Reference Include="cms, Version=1.0.4089.21636, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\cms.dll</HintPath>
+    <Reference Include="cms">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\cms.dll</HintPath>
     </Reference>
-    <Reference Include="Examine, Version=0.10.0.292, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\Examine.dll</HintPath>
+    <Reference Include="Examine">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\Examine.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -64,11 +64,11 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="umbraco, Version=1.0.4090.38017, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\umbraco.dll</HintPath>
+    <Reference Include="umbraco">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\umbraco.dll</HintPath>
     </Reference>
-    <Reference Include="UmbracoExamine, Version=0.10.0.292, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\3rd party assemblies\umbraco core 4.0\UmbracoExamine.dll</HintPath>
+    <Reference Include="UmbracoExamine">
+      <HintPath>..\..\3rd party assemblies\umbraco core 4.0\UmbracoExamine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -105,11 +105,11 @@
     <Compile Include="ResourceResolvers\TemplateResources.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Umbraco.Courier.Core\Umbraco.Courier.Core.csproj">
+    <ProjectReference Include="..\..\..\Core\Umbraco.Courier.Core\Umbraco.Courier.Core.csproj">
       <Project>{2CB35BCC-565C-4652-9079-F41B140514B3}</Project>
       <Name>Umbraco.Courier.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Umbraco.Courier.Providers\Umbraco.Courier.Providers.csproj">
+    <ProjectReference Include="..\..\..\Core\Umbraco.Courier.Providers\Umbraco.Courier.Providers.csproj">
       <Project>{DA49369E-16DF-4B3D-8307-BAE2CAA32998}</Project>
       <Name>Umbraco.Courier.Providers</Name>
     </ProjectReference>

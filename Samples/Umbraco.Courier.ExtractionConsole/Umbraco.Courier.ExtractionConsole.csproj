@@ -64,19 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\businesslogic.dll" />
-    <Content Include="bin\Debug\ClientDependency.Core.dll" />
-    <Content Include="bin\Debug\cms.dll" />
-    <Content Include="bin\Debug\controls.dll" />
-    <Content Include="bin\Debug\CookComputing.XmlRpcV2.dll" />
-    <Content Include="bin\Debug\Examine.dll" />
-    <Content Include="bin\Debug\Examine.xml" />
-    <Content Include="bin\Debug\HtmlAgilityPack.dll" />
-    <Content Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
     <Content Include="bin\Debug\interfaces.dll" />
-    <Content Include="bin\Debug\Lucene.Net.dll" />
     <Content Include="bin\Debug\Microsoft.ApplicationBlocks.Data.dll" />
     <Content Include="bin\Debug\MySql.Data.dll" />
-    <Content Include="bin\Debug\TidyNet.dll" />
     <Content Include="bin\Debug\Umbraco.Courier.Core.dll" />
     <Content Include="bin\Debug\Umbraco.Courier.Core.pdb" />
     <Content Include="bin\Debug\Umbraco.Courier.ExtractionConsole.exe" />
