@@ -5,10 +5,10 @@ Courier is a closed-source deployment tool for the Umbraco CMS. It helps you und
 
 ###Latest developement version
 The latest builds of courier, exists on http://nightly.umbraco.org/UmbracoCourier/ with nightly builds of each commit. 
-As of this writing the recommended test version is 2.7.0.22 which is here:
+As of this writing the recommended test version is 2.7.0.23 which is here:
 
-* Package: http://nightly.umbraco.org/UmbracoCourier/2.7/nightly%20builds/Courier_2.7_2.7.0.22.zip
-* Zip: http://nightly.umbraco.org/UmbracoCourier/2.7/nightly%20builds/Courier_2.7_2.7.0.22_hotfix.zip
+* Package: http://nightly.umbraco.org/UmbracoCourier/2.7/nightly%20builds/Courier_2.7_2.7.0.23.zip
+* Zip: http://nightly.umbraco.org/UmbracoCourier/2.7/nightly%20builds/Courier_2.7_2.7.0.23_hotfix.zip
 
 
 ###How to use the source?
