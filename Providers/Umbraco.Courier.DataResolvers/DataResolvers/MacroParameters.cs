@@ -16,7 +16,11 @@ namespace Umbraco.Courier.DataResolvers
     {
         private static List<string> macroDataTypes = Context.Current.Settings.GetConfigurationCollection("/configuration/itemDataResolvers/macros/add", true);
         private static List<string> macroPropertyTypes = Context.Current.Settings.GetConfigurationCollection("/configuration/macroPropertyTypeResolvers/contentPickers/add", true);
-
+      
+        private static string elementRegex = string.Format("(</?{0}((\\s+\\w+(\\s*=\\s*(?:\".*?\"|'.*?'|[^'\">\\s]+))?)+\\s*|\\s*)/?>)", Regex.Escape("umbraco:macro"));
+        private static string oldelementRegex = string.Format("(</?{0}((\\s+\\w+(\\s*=\\s*(?:\".*?\"|'.*?'|[^'\">\\s]+))?)+\\s*|\\s*)/?>)", Regex.Escape("?UMBRACO_MACRO"));
+        private static string attrRegex = @"(.*?)=\""(.*?)\""";
+        
         public MacroParameters()
         {
             AllowAsync = false;    
@@ -24,33 +28,46 @@ namespace Umbraco.Courier.DataResolvers
 
         public override List<Type> ResolvableTypes
         {
-            get { return new List<Type>(){ typeof(ContentPropertyData), typeof(Template) }; }
+            get { return new List<Type>(){ typeof(ContentPropertyData)}; }
         }        
 
         public override bool ShouldExecute(Item item, Core.Enums.ItemEvent itemEvent)
         {
-            if (item.GetType() == typeof(ContentPropertyData))
-            {
-                ContentPropertyData cpd = (ContentPropertyData)item;
-                foreach (var cp in cpd.Data)
-                    if (cp.Value != null && cp.Value.ToString().ToLower().Contains("macro") && macroDataTypes.Contains(cp.DataTypeEditor.ToString().ToLower()))
-                        return true;
-            }
-            return false;
-        }
-        
-       
+            ContentPropertyData cpd = (ContentPropertyData)item;
+            foreach (var cp in cpd.Data.Where(x => macroDataTypes.Contains(x.DataTypeEditor.ToString(), StringComparer.OrdinalIgnoreCase)))
+                if (
+                        cp.Value != null 
+                        &&
+                        (cp.Value.ToString().IndexOf("umbraco:macro", StringComparison.OrdinalIgnoreCase)>0 
+                        ||
+                        cp.Value.ToString().IndexOf("UMBRACO_MACRO", StringComparison.OrdinalIgnoreCase)>0)
+                    )
+                    return true;
+            
 
+            return false;
+        }             
+        
         public override void Packaging(Item item) {
             if(item.GetType() == typeof(ContentPropertyData))
             {
                 ContentPropertyData cpd = (ContentPropertyData)item;
+
                 foreach (var prop in cpd.Data.Where(x => x.Value != null && macroDataTypes.Contains(x.DataTypeEditor.ToString().ToLower())))
                 {
                     string templateText = prop.Value.ToString();
-                    string transformed = ReplaceMacrosInstring(templateText, true, item);
 
-                    prop.Value = transformed;
+                    Helpers.MacroResolver resolver = new Helpers.MacroResolver();
+                    resolver.RegisterMacroDependencies = true;
+                    resolver.RegisterNodeDependencies = true;
+                    
+                    if(templateText.IndexOf("umbraco:macro", StringComparison.OrdinalIgnoreCase)>0)
+                        templateText = resolver.ReplaceMacroElements(templateText, true, item);
+
+                    if (templateText.IndexOf("UMBRACO_MACRO", StringComparison.OrdinalIgnoreCase) > 0)
+                        templateText = resolver.ReplaceOldMacroElements(templateText, true, item);
+
+                    prop.Value = templateText;
                 }
             }
         }
@@ -61,39 +78,27 @@ namespace Umbraco.Courier.DataResolvers
                 ContentPropertyData cpd = (ContentPropertyData)item;
 
                 foreach (var prop in cpd.Data.Where(x => x.Value != null && macroDataTypes.Contains(x.DataTypeEditor.ToString().ToLower()))) {
-                
+
                     string templateText = prop.Value.ToString();
-                    string transformed = ReplaceMacrosInstring(templateText, false, item);
 
-                    prop.Value = transformed;
+                    Helpers.MacroResolver resolver = new Helpers.MacroResolver();
+                    resolver.RegisterMacroDependencies = true;
+                    resolver.RegisterNodeDependencies = true;
+
+                    if (templateText.IndexOf("umbraco:macro", StringComparison.OrdinalIgnoreCase) > 0)
+                        templateText = resolver.ReplaceMacroElements(templateText, false, item);
+
+                    if (templateText.IndexOf("UMBRACO_MACRO", StringComparison.OrdinalIgnoreCase) > 0)
+                        templateText = resolver.ReplaceOldMacroElements(templateText, false, item);
+
+                    prop.Value = templateText;
                 }
 
             }
         }
 
-        public string ReplaceMacrosInTemplate(string str, bool toUnique, Item item)
-        {
-            string element = Regex.Escape("umbraco:macro");
-            string elementRegex = string.Format("(<{0}((\\s+\\w+(\\s*=\\s*(?:\".*?\"|'.*?'|[^'\">\\s]+))?)+\\s*|\\s*)/?>)", element);
 
-            var fragments = Dependencies.FragmentString(elementRegex, str);
-
-            StringBuilder sb = new StringBuilder();
-            foreach (var fragment in fragments)
-            {
-                if (!fragment.Match)
-                    sb.Append(fragment.value);
-                else
-                {
-                    var tag = fragment.value;
-                    tag = TransformMacroTag(tag, toUnique, item);
-                    sb.Append(tag);
-                }
-            }
-
-            return sb.ToString();
-        }
-        
+        /*
         public string ReplaceMacrosInstring(string str, bool toUnique, Item item)
         {
             string original = str;
@@ -246,6 +251,8 @@ namespace Umbraco.Courier.DataResolvers
             }
             return tag;
         }
+
+        */
     }
 
 }

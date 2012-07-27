@@ -17,7 +17,6 @@ namespace Umbraco.Courier.DataResolvers.ResourceResolvers
             if (itemType == typeof(Template) && resource.PackageFromPath.ToLower().EndsWith(".master"))
                 return true;
 
-
             return false;
         }
         
@@ -29,11 +28,19 @@ namespace Umbraco.Courier.DataResolvers.ResourceResolvers
         public override void PackagedResource(Type itemType, ItemIdentifier itemId, Resource resource)
         {
                 var fileContent = ResourceAsString(resource);
-
                 if (fileContent != string.Empty)
                 {
-                    List<string> ids;
-                    fileContent = replaceIDWithGuid(fileContent, out ids);
+                    //macros
+                    Helpers.MacroResolver res = new Helpers.MacroResolver();
+                    res.RegisterNodeDependencies = false;
+                    res.RegisterMacroDependencies = false;
+                    fileContent = res.ReplaceMacroElements(fileContent, true, null);
+
+                    //links
+                    Helpers.LocalLinkResolver les = new Helpers.LocalLinkResolver();
+                    les.RegisterLinksAsDependencies = false;
+                    fileContent = les.ReplaceLocalLinks(fileContent, true, null);
+
                     resource.ResourceContents = Core.Settings.Encoding.GetBytes(fileContent);
                 }
             
@@ -46,67 +53,22 @@ namespace Umbraco.Courier.DataResolvers.ResourceResolvers
 
                 if (fileContent != string.Empty)
                 {
-                    fileContent = replaceGuidWithID(fileContent);
+                    //macros
+                    Helpers.MacroResolver res = new Helpers.MacroResolver();
+                    res.RegisterNodeDependencies = false;
+                    res.RegisterMacroDependencies = false;
+                    fileContent = res.ReplaceMacroElements(fileContent, false, null);
+
+                    //links
+                    Helpers.LocalLinkResolver les = new Helpers.LocalLinkResolver();
+                    les.RegisterLinksAsDependencies = false;
+                    fileContent = les.ReplaceLocalLinks(fileContent, false, null);
+                                        
                     resource.ResourceContents = Core.Settings.Encoding.GetBytes(fileContent);
                 }
             
         }
-
-
-        private string replaceGuidWithID(string val)
-        {
-
-            val = Regex.Replace(val, regex, delegate(Match match)
-            {
-
-                string guid = match.Groups[1].Value;
-                string tag = match.ToString();
-
-
-                Guid nodeGuid;
-
-                if (Guid.TryParse(guid, out nodeGuid))
-                {
-                    int nodeId = PersistenceManager.Default.GetNodeId(nodeGuid);
-                    if (nodeId != 0)
-                        tag = tag.Replace(guid, nodeId.ToString());
-                }
-
-                return tag;
-            }, RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace);
-
-            return val;
-        }
-
-        //replace
-        private string replaceIDWithGuid(string val, out List<string> ids)
-        {
-            List<string> idsFound = new List<string>();
-
-            val = Regex.Replace(val, regex, delegate(Match match)
-            {
-                string id = match.Groups[1].Value;
-                string tag = match.ToString();
-
-                int nodeId;
-
-                if (int.TryParse(id, out nodeId))
-                {
-                    Guid nodeGuid = PersistenceManager.Default.GetUniqueId(nodeId);
-                    if (nodeGuid != Guid.Empty)
-                    {
-                        idsFound.Add(nodeGuid.ToString());
-                        tag = tag.Replace(id, nodeGuid.ToString());
-                    }
-                }
-                return tag;
-            }, RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace);
-
-            ids = idsFound;
-
-            return val;
-        }
-
+              
         private string ResourceAsString(Resource r)
         {
             var bytes = r.ResourceContents;

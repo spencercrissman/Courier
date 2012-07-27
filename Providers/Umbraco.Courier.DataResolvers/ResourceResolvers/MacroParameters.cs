@@ -16,7 +16,9 @@ namespace Umbraco.Courier.ResourceResolvers
     {
         private static List<string> macroDataTypes = Context.Current.Settings.GetConfigurationCollection("/configuration/itemDataResolvers/macros/add", true);
         private static List<string> macroPropertyTypes = Context.Current.Settings.GetConfigurationCollection("/configuration/macroPropertyTypeResolvers/contentPickers/add", true);
-        
+
+        string elementRegex = string.Format("(</?{0}((\\s+\\w+(\\s*=\\s*(?:\".*?\"|'.*?'|[^'\">\\s]+))?)+\\s*|\\s*)/?>)", Regex.Escape("umbraco:macro"));
+        string attrRegex = @"{0}=\""(.*?)\""";
 
         public override List<Type> ResolvableTypes
         {
@@ -25,15 +27,14 @@ namespace Umbraco.Courier.ResourceResolvers
 
         public override bool ShouldExecute(Type itemType, Core.ItemIdentifier itemId, Core.Resource resource, Core.Enums.ItemEvent eventType)
         {
-            if (itemType == typeof(Template) && resource.PackageFromPath.ToLower().EndsWith(".master"))
-                return true;
+            //if (itemType == typeof(Template) && resource.PackageFromPath.ToLower().EndsWith(".master"))
+            //return true;
 
             return false;
         }
 
         public override void PackagedResource(Type itemType, ItemIdentifier itemId, Resource resource)
-        {
-           
+        {           
             {
                 var item = PersistenceManager.Default.RetrieveItem<Template>(itemId);
                 var encoding = Core.Settings.Encoding;
@@ -64,8 +65,7 @@ namespace Umbraco.Courier.ResourceResolvers
         }
 
         public override void ExtractingResource(Type itemType, ItemIdentifier itemId, Resource resource)
-        {
-          
+        { 
                 var item = PersistenceManager.Default.RetrieveItem<Template>(itemId);
                 var encoding = Core.Settings.Encoding;
 
@@ -84,6 +84,19 @@ namespace Umbraco.Courier.ResourceResolvers
             
         }
 
+        public string ReplaceMacroElements(string source, bool toUnique, Item item)
+        {
+            Regex rx = new Regex(elementRegex, RegexOptions.IgnoreCase);
+            return rx.Replace(source, new MatchEvaluator(MacroElementEvaluator));
+        }
+
+        private static string MacroElementEvaluator(Match m)
+        {
+            // Get the matched string.
+            string x = m.ToString();
+            return x;
+        }
+        
         public string ReplaceMacrosInstring(string str, bool toUnique, Item item)
         {
             string original = str;

@@ -310,8 +310,6 @@ namespace Umbraco.Courier.RepositoryProviders {
             string _folder = "";
             string _name = alias;
 
-            Console.WriteLine("IN PROVIDER");
-
             if (System.IO.Directory.Exists(alias))
             {
                 _folder = alias;

@@ -554,11 +554,13 @@ namespace Umbraco.Courier.RepositoryProviders
                 resource.ResourceAsBase64 = Convert.ToBase64String(resource.ResourceContents);
                 resource.ResourceContents = new byte[0];
             }
-            
+
+            string typestr = string.Empty;
+            if (itemType != null)
+                typestr = itemType.ToString();
+
             RepositoryWebservice repo = new RepositoryWebservice(_url);
-            string path = repo.SaveResourceContents(itemId, itemType.ToString(), resource, revisionAlias, loginName, pass);
-            //byte[] resourceContent = repo.GetResourceContents(this.SessionKey, itemId, typeName, resource, loginName, pass);
-            
+            string path = repo.SaveResourceContents(itemId, typestr, resource, revisionAlias, loginName, pass);
             repo.Dispose();
 
             return path;

@@ -10,7 +10,6 @@ namespace Umbraco.Courier.DataResolvers
     public class KeyValuePrevalueEditor : ItemDataResolverProvider
     {
         private Dictionary<string, string> keyValuePrevalueEditors = Context.Current.Settings.GetConfigurationKeyValueCollection("/configuration/itemDataResolvers/keyValuePrevalueEditors/add", true);
-
         public override List<Type> ResolvableTypes
         {
             get { return new List<Type>() { typeof(ContentPropertyData) }; }
@@ -34,24 +33,33 @@ namespace Umbraco.Courier.DataResolvers
             {
                 if (keyValuePrevalueEditors.Values.Contains(cp.PreValueEditor.ToLower()) && cp.Value != null)
                 {
-                    string[] vals = cp.Value.ToString().Split(',');
+                    //nonConvert indicator
+                    string value = cp.Value.ToString();
+                    bool nonConvert = value.StartsWith("¤");
+                    value = value.TrimStart('¤');
+
+                    string[] vals = value.Split(',');
                     string newVals = string.Empty;
 
                     ItemIdentifier itemid = new ItemIdentifier(cp.DataType.ToString(), ProviderIDCollection.dataTypeItemProviderGuid);
-                    DataType dt = PersistenceManager.Default.RetrieveItem<DataType>(itemid);
 
-                    if (dt != null)
+                    if (nonConvert)
+                        cp.Value = value.Trim(',');
+                    else
                     {
-                        foreach (string s in vals)
+                        DataType dt = PersistenceManager.Default.RetrieveItem<DataType>(itemid);
+                        if (dt != null)
                         {
-                            var val = dt.Prevalues.Where( x => x.Value == s).FirstOrDefault();
-                            if (val != null)
+                            foreach (string s in vals)
                             {
-                                newVals += val.Id.ToString() + ",";
+                                var val = dt.Prevalues.Where(x => x.Value == s).FirstOrDefault();
+                                if (val != null)
+                                {
+                                    newVals += val.Id.ToString() + ",";
+                                }
                             }
+                            cp.Value = newVals.Trim(',');
                         }
-
-                        cp.Value = newVals.Trim(',');
                     }
                 }
             }
@@ -71,6 +79,12 @@ namespace Umbraco.Courier.DataResolvers
                     ItemIdentifier itemid = new ItemIdentifier(cp.DataType.ToString(), ProviderIDCollection.dataTypeItemProviderGuid);
                     DataType dt = PersistenceManager.Default.RetrieveItem<DataType>(itemid);
 
+                    bool nonConvert = false;
+                    int convertTestVal = 0;
+                    if (!int.TryParse(string.Join("", vals), out convertTestVal))
+                        nonConvert = true;
+
+
                     if (dt != null)
                     {
                         foreach (string s in vals)
@@ -81,13 +95,23 @@ namespace Umbraco.Courier.DataResolvers
                                 if (id > 0)
                                 {
                                     var val = dt.Prevalues.Where(x => x.Id == id).FirstOrDefault();
-                                    if(val != null)
-                                    newVals += val.Value + ",";
+                                    if (val != null)
+                                        newVals += val.Value + ",";
                                 }
+                            }
+                            else if(dt.Prevalues.Where(x => x.Value == s).Any())
+                            {
+                                newVals += s + ",";
                             }
                         }
 
-                        cp.Value = newVals.Trim(',');
+                        newVals = newVals.Trim(',');
+
+                        //this is a nasty hack but no way around it due to the idiotic way keyvalue types can store stuff
+                        if (nonConvert)
+                            newVals = "¤" + newVals;
+
+                        cp.Value = newVals;
                     }
                 }
             }

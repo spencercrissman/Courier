@@ -94,6 +94,8 @@
     <Compile Include="Events\RefreshDocumentTypePropertyCache.cs" />
     <Compile Include="Events\UnPublishDocument.cs" />
     <Compile Include="Events\UpdateLuceneIndexes.cs" />
+    <Compile Include="Helpers\LocalLinkResolver.cs" />
+    <Compile Include="Helpers\MacroResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataResolvers\RelatedLinks.cs" />
     <Compile Include="DataResolvers\Tags.cs" />

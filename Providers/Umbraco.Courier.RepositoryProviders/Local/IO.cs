@@ -20,13 +20,17 @@ namespace Umbraco.Courier.RepositoryProviders.Helpers
 
         public static string RootFolder(string alias)
         {
-            var root = Core.Context.Current.MapPath(Core.Settings.revisionsPath) + Core.Helpers.IO.DirSepChar + alias;
+            string root = alias;
+            if (!alias.Contains('/') && !alias.Contains('\\'))
+                root = System.IO.Path.Combine(Core.Context.Current.MapPath(Core.Settings.revisionsPath), alias);
+
             return root;            
         }
 
         public static string ResourcesFolder(string alias)
         {
-            var root = System.IO.Path.Combine(Core.Context.Current.MapPath(Core.Settings.revisionsPath), alias);
+            var root = RootFolder(alias);
+
             EnsureRevisionFolders(root);
             return Path.Combine(root, Core.Settings.ResourcesFolderName);
         }
@@ -34,15 +38,15 @@ namespace Umbraco.Courier.RepositoryProviders.Helpers
 
         public static string ItemFilePath(Item item, string providerDirectory, string revisionAlias)
         {
-            var root = RevisionsFolder(revisionAlias);
-            var courierFileName = Umbraco.Courier.Core.Helpers.IO.SanitizeFileName(item.CourierFileName);
+            string root = RevisionsFolder(revisionAlias);
             
+            var courierFileName = Umbraco.Courier.Core.Helpers.IO.SanitizeFileName(item.CourierFileName);
             return Path.Combine(root, providerDirectory, courierFileName + "." + Core.Settings.fileExt);
         }
 
         public static string ResourceFilePath(Resource resource, string revisionAlias)
         {
-            var root = ResourcesFolder(revisionAlias);
+            string root = ResourcesFolder(revisionAlias);
             var path = (root + Core.Helpers.IO.DirSepChar + resource.TemporaryStoragePath.Replace("//", "/").Replace('/', '\\').TrimStart('\\'));
             
             return path;

@@ -48,12 +48,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\Umbraco.Courier.Core\Umbraco.Courier.Core.csproj">
-      <Project>{2CB35BCC-565C-4652-9079-F41B140514B3}</Project>
-      <Name>Umbraco.Courier.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="bin\Debug\Umbraco.Courier.ExtractionConsole.exe.config" />
     <None Include="bin\Debug\Umbraco.Courier.ExtractionConsole.vshost.exe.config" />
@@ -85,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Umbraco.Courier.Core\Umbraco.Courier.Core.csproj">
+      <Project>{2CB35BCC-565C-4652-9079-F41B140514B3}</Project>
+      <Name>Umbraco.Courier.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
