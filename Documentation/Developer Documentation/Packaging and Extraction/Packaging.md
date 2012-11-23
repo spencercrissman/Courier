@@ -1,7 +1,6 @@
-
 this tells courier to store the packaging result to revisionName folder at the local site
 
-  RevisionPackaging engine = new RevisionPackaging("RevisionName");
+	RevisionPackaging engine = new RevisionPackaging("RevisionName");
             
 there are some overloads, which allows you to connect to different locations
 these are stored in courier.config
@@ -10,10 +9,10 @@ these are stored in courier.config
 when you set the source and destination, courier will pull files and data FROM the source
 but it will also store the revision items and files AT the destination site
 
-  RepositoryStorage rs = new RepositoryStorage();
-  var source = rs.GetByAlias("local");
-  var destination = rs.GetByAlias("remote");
-  var compareEngine = new RevisionPackaging(source, destination, "RevisionName");
+	RepositoryStorage rs = new RepositoryStorage();
+	var source = rs.GetByAlias("local");
+	var destination = rs.GetByAlias("remote");
+	var compareEngine = new RevisionPackaging(source, destination, "RevisionName");
 
 
 you can also tell courier to compare the contents of the packaging with a running site, so you dont package
