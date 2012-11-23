@@ -1,3 +1,10 @@
+	using Umbraco.Courier.Core;
+	using Umbraco.Courier.Core.Collections.Manifests;
+	using Umbraco.Courier.Core.Extraction;
+	using Umbraco.Courier.Core.Packaging;
+	using Umbraco.Courier.Core.Storage;
+	using Umbraco.Courier.ItemProviders;
+
 this tells courier to store the packaging result to revisionName folder at the local site
 
 	RevisionPackaging engine = new RevisionPackaging("RevisionName");
