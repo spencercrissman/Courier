@@ -23,6 +23,18 @@ Strip the raw byte data from .courier files before transfering
 
 	<stripResourcesFromCourierFiles>false</stripResourcesFromCourierFiles>
 
+###Ignore unpublished content
+Dont transer content changes not yet published, if turned off, it will transfer unpublished changes, but not publish them
+
+	<ignoreUnpublishedVersions>true</ignoreUnpublishedVersions>
+
+###enableShortFileNames
+Uses the shortest possible unique name for files, instead of a name / guid combo
+
+	<enableShortFileNames>true</enableShortFileNames>
+
+
+
 ##Path settings
 ###Root folder
 The root folder containing all Couriers data. This folder needs changed, if Courier runs outside of the standard umbraco webcontext. 
