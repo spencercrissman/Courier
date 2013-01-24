@@ -41,6 +41,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Umbraco.Courier.Core">
+      <HintPath>..\..\..\..\Projects\umbraco PRO\Courier 2\Core\Umbraco.Courier.Core\bin\Umbraco.Courier.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Package.cs" />
@@ -48,10 +51,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\Umbraco.Courier.Core\Umbraco.Courier.Core.csproj">
-      <Project>{2CB35BCC-565C-4652-9079-F41B140514B3}</Project>
-      <Name>Umbraco.Courier.Core</Name>
-    </ProjectReference>
+    <None Include="ReadME.md" />
+    <None Include="SampleProject\Config\courier.config" />
+    <None Include="SampleProject\Deploy.build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SampleProject\Manifests\Content.xml" />
+    <Content Include="SampleProject\Manifests\infrastucture.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SampleProject\Output\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

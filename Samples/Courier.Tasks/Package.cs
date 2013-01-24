@@ -41,12 +41,21 @@ namespace Courier.Tasks
 
         protected override void ExecuteTask()
         {
+            Console.WriteLine("");
+            Console.WriteLine("-------------------");
             Console.WriteLine("Application: " + application);
             Console.WriteLine("Config: " + Config);
             Console.WriteLine("plugins: " + plugins);
 
             init();
 
+            foreach (var repo in Umbraco.Courier.Core.ProviderModel.RepositoryProviderCollection.Instance.GetProviders())
+            {
+                Console.WriteLine("Repo provider loaded: " + repo.Name + "/" + repo.GetType().ToString());
+            }
+            Console.WriteLine("-------------------");
+            
+            
             Repository target = null;
             Repository source = null;
 
@@ -56,7 +65,13 @@ namespace Courier.Tasks
                 if(!string.IsNullOrEmpty(Target))
                     target = rs.GetByAlias(Target);
             }
+            
+            if(source == null)
+                Console.WriteLine("Could not find source: " + Source);
 
+            if (target == null)
+                Console.WriteLine("Could not find target: " + Source);
+            
             var engine = new RevisionPackaging(Revision);
             engine.Source = source;
             
@@ -69,17 +84,23 @@ namespace Courier.Tasks
                 engine.EnableInstantCompare(target);
             }
 
+
             Console.WriteLine("Loading manifest...");
             var manifest = RevisionManifest.Load( Manifest );
-            engine.AddToQueue(manifest);
+            if (manifest == null)
+                Console.WriteLine("Manifest file not found: " + Manifest);
+            else
+            {
+                engine.AddToQueue(manifest);
 
-            Console.WriteLine("Starting packaging...");
-            engine.Package();
-            engine.Dispose();
+                Console.WriteLine("Starting packaging...");
+                engine.Package();
+                engine.Dispose();
 
-            Console.ResetColor();
+                Console.ResetColor();
 
-            Console.WriteLine("All done, yay!");
+                Console.WriteLine("All done, yay!");
+            }
         }
 
         void engine_SkippedItem(object sender, ItemEventArgs e)
@@ -112,6 +133,7 @@ namespace Courier.Tasks
 
             //finally we need to redirect the revisions root for correct mapping
             Umbraco.Courier.Core.Context.Current.BaseDirectory = directory;
+
             Umbraco.Courier.Core.Context.Current.HasHttpContext = false;
         }
 

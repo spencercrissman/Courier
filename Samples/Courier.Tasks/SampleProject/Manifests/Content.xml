@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<manifest>
+  <metaData>
+    <description></description>
+    <uniqueIdentifier>00000000-0000-0000-0000-000000000000</uniqueIdentifier>
+    <createDate>2013-01-24T11:58:57.5866345+01:00</createDate>
+    <updateDate>2013-01-24T11:58:57.5866345+01:00</updateDate>
+  </metaData>
+  <providers>
+    
+    <!-- content -->
+    <provider id="d8e6ad83-e73a-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0"/>
+    
+    <!-- media -->
+    <provider id="d8e6ad87-e73a-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0" />
+  </providers>
+</manifest>

@@ -1,0 +1,79 @@
+﻿<manifest>
+  <metaData>
+    <description></description>
+    <uniqueIdentifier>00000000-0000-0000-0000-000000000000</uniqueIdentifier>
+    <createDate>2013-01-24T11:53:50.2407573+01:00</createDate>
+    <updateDate>2013-01-24T11:53:50.2407573+01:00</updateDate>
+  </metaData>
+
+  <providers>
+    
+    <provider id="e0472592-e73b-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="a6857c73-d6e9-480c-b6e6-f15f6ad11125" includeChildren="True" />
+      <item name="" id="93929b9a-93a2-4e2a-b239-d99334440a59" includeChildren="True" />
+      <item name="" id="2b24165f-9782-4aa3-b459-1de4a4d21f60" includeChildren="True" />
+      <item name="" id="1251c96c-185c-4e9b-93f4-b48205573cbd" includeChildren="True" />
+      <item name="" id="06f349a9-c949-4b6a-8660-59c10451af42" includeChildren="True" />
+      <item name="" id="21e798da-e06e-4eda-a511-ed257f78d4fa" includeChildren="True" />
+      <item name="" id="b6b73142-b9c1-4bf8-a16d-e1c23320b549" includeChildren="True" />
+      <item name="" id="0a452bd5-83f9-4bc3-8403-1286e13fb77e" includeChildren="True" />
+      <item name="" id="1df9f033-e6d4-451f-b8d2-e0cbc50a836f" includeChildren="True" />
+      <item name="" id="3a3d6e61-fa91-49bc-87b6-c45a6e79726f" includeChildren="True" />
+      <item name="" id="545dd126-7169-4d84-9d2d-ec3b530f4a26" includeChildren="True" />
+      <item name="" id="50d985c6-41fe-4bf2-90c1-e421907f54d2" includeChildren="True" />
+    </provider>
+
+    <provider id="d8e6ad84-e73a-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="umbBlog" includeChildren="True" />
+      <item name="" id="umbBlogPost" includeChildren="True" />
+      <item name="" id="DateFolder" includeChildren="True" />
+      <item name="" id="umbHomepage" includeChildren="True" />
+      <item name="" id="umbNewsArea" includeChildren="True" />
+      <item name="" id="umbNewsArticle" includeChildren="True" />
+      <item name="" id="umbTextpage" includeChildren="True" />
+    </provider>
+
+    <provider id="2ab40e30-e292-11df-85ca-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="umb2ndLevelNavigation" includeChildren="True" />
+      <item name="" id="BlogArchive" includeChildren="True" />
+      <item name="" id="BlogBlogroll" includeChildren="True" />
+      <item name="" id="BlogCategories" includeChildren="True" />
+      <item name="" id="frmBlogComment" includeChildren="True" />
+      <item name="" id="BlogFullArchive" includeChildren="True" />
+      <item name="" id="BlogLatestComments" includeChildren="True" />
+      <item name="" id="BlogListPosts" includeChildren="True" />
+      <item name="" id="BlogMetaWeblogChannel" includeChildren="True" />
+      <item name="" id="BlogPostListComments" includeChildren="True" />
+      <item name="" id="BlogRss" includeChildren="True" />
+      <item name="" id="BlogRssFeedLink" includeChildren="True" />
+      <item name="" id="BlogTagcloud" includeChildren="True" />
+      <item name="" id="Blogpages" includeChildren="True" />
+      <item name="" id="BlogpostRelatedPages" includeChildren="True" />
+      <item name="" id="umbBusinessFrontpageBlog" includeChildren="True" />
+      <item name="" id="umbBusinessFrontpageNews" includeChildren="True" />
+      <item name="" id="RunwayContactForm" includeChildren="True" />
+      <item name="" id="umbFeedViewer" includeChildren="True" />
+      <item name="" id="umbNewsListItems" includeChildren="True" />
+      <item name="" id="umbTopNavigation" includeChildren="True" />
+    </provider>
+    
+    <provider id="d8e6ad88-e73a-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="Folder" includeChildren="True" />
+      <item name="" id="Image" includeChildren="True" />
+      <item name="" id="File" includeChildren="True" />
+    </provider>
+    
+    <provider id="e0472596-e73b-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="Starterkit" includeChildren="True" />
+      <item name="" id="friendly-ghost_dark" includeChildren="True" />
+      <item name="" id="friendly-ghost_light" includeChildren="True" />
+    </provider>
+    
+    <provider id="25867200-e67e-11df-9492-0800200c9a66" includeAll="True" dependecyLevel="0">
+      <item name="" id="CommentRss" includeChildren="True" />
+      <item name="" id="Rss" includeChildren="True" />
+      <item name="" id="umbMaster" includeChildren="True" />
+    </provider>
+    
+  </providers>
+</manifest>
