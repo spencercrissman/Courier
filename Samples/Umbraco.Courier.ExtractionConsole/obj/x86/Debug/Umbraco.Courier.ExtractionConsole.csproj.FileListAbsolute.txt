@@ -8,3 +8,13 @@ C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.csprojResolveAssemblyReference.cache
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.exe
 C:\Users\Hartvig\Documents\Source Code\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.pdb
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.exe.config
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.exe
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.ExtractionConsole.pdb
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.Core.dll
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.dll
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Courier.Core.pdb
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\bin\Debug\Umbraco.Licensing.pdb
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.csprojResolveAssemblyReference.cache
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.exe
+C:\Users\Per\Documents\Projects\umbraco PRO\Courier 2\Contrib\Samples\Umbraco.Courier.ExtractionConsole\obj\x86\Debug\Umbraco.Courier.ExtractionConsole.pdb
