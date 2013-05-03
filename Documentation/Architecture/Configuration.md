@@ -62,11 +62,19 @@ If there is an issue with a specific provider, no matter what type of provider. 
 This is done by adding its full namespace and class to the configuration, you can ignore any item provider, data resolver, repository provider or any other functionality that’s loaded through Couriers provider model.
 
 	<ignore>
+<<<<<<< HEAD
 	 <!--�Ignore�the�lucene�indexer�-->
 	 <add>Umbraco.Courier.DataResolvers.Events.UpdateLuceneIndexes</add>
 	 <!--ignore�all�ucomponents�data�resolvers�-->
 	 <add>Umbraco.Courier.uComponents.*</add>
 	 <!--<add>my.namespace.*</add>-->
+=======
+	    <!-- Ignore the lucene indexer -->
+	    <add>Umbraco.Courier.DataResolvers.Events.UpdateLuceneIndexes</add>
+	    <!-- ignore all ucomponents data resolvers -->
+	    <add>Umbraco.Courier.uComponents.*</add>
+	    <!--<add>my.namespace.*</add>-->
+>>>>>>> 2.7.7 merge error update
 	</ignore>
 
 
@@ -82,4 +90,8 @@ If enabled, Courier will generate a blumind compatible mindmap after each extrac
 
 	<mapGraphs>true</mapGraphs>
 	
+<<<<<<< HEAD
 	
+=======
+	
+>>>>>>> 2.7.7 merge error update

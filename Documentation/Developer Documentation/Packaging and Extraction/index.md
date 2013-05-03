@@ -89,4 +89,8 @@ If you want to allow Courier to perform comparison checking against a destinatio
 ##Extraction
 
 
+<<<<<<< HEAD
 ##Transfering
+=======
+##Transfering
+>>>>>>> 2.7.7 merge error update

@@ -48,8 +48,11 @@ If you use a custom umbraco membership provider, you must always specify the log
 
 The network share repository can transfer items back and forth to a local or network directory where the asp.net application has access. To add a network share repository, add the following to the courier.config under “repositories”
 
+<<<<<<< HEAD
 A network share does not know anything about packaging or extraction, it can only be used for storage of revisions.
 
+=======
+>>>>>>> 2.7.7 merge error update
 ####Configuration XML
 	<repository name="Revisions" alias="revisions" type="NetworkShareProvider" visible="true">
 	    <path>C:\path\to\repository</path>
@@ -66,8 +69,11 @@ A network share does not know anything about packaging or extraction, it can onl
 
 Provider can connect to a subversion repository
 
+<<<<<<< HEAD
 A subversion repository does not know anything about packaging or extraction, it can only be used for storage of revisions.
 
+=======
+>>>>>>> 2.7.7 merge error update
 ####Configuration XML
 	<repository name="SVN Repo" alias="svnRepo" type="SubversionRepository" visible="true">
 	    <url>http://cws.local</url>
@@ -78,4 +84,8 @@ A subversion repository does not know anything about packaging or extraction, it
 ####Settings
 * **Url**: url to subversion repository
 * **Login**: Your subversion username
+<<<<<<< HEAD
 * **Password**: Your subversion password
+=======
+* **Password**: Your subversion password
+>>>>>>> 2.7.7 merge error update
