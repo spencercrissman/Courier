@@ -36,11 +36,6 @@ namespace Umbraco.Courier.RepositoryProviders.Webservices
 		// Public Methods (6) 
      private void AuthorizeClient(string username, string password) {
 
-       if(!string.IsNullOrEmpty(HttpContext.Current.Request.QueryString["fromExternalClient"])){
-            if (Core.Licensing.InfralutionLicensing.IsLight())
-                throw new Umbraco.Licensing.Exceptions.InvalidLicenseException(Core.Licensing.InfralutionLicensing.LICENSE_APIERROR + "\n\n" + Core.Licensing.InfralutionLicensing.LICENSE_CONTACTINFO);
-       }
-
        string _user = Umbraco.Courier.Core.Helpers.Encryption.Decrypt(username);
        string _pass = Umbraco.Courier.Core.Helpers.Encryption.Decrypt(password);
 
@@ -439,7 +434,7 @@ namespace Umbraco.Courier.RepositoryProviders.Webservices
         return "";
     }
 
-
+      /*
     [WebMethod]
     public string SaveResourceContents(ItemIdentifier itemId, string itemTypeName, Resource resource, string revisionAlias, string user, string pass)
     {
@@ -447,7 +442,6 @@ namespace Umbraco.Courier.RepositoryProviders.Webservices
         AuthorizeClient(user, pass);
 
         Type itemType = Type.GetType(itemTypeName);
-
         if (!Core.Settings.disableBase64Encoding)
         {
             resource.ResourceContents = Convert.FromBase64String(resource.ResourceAsBase64);
@@ -456,7 +450,7 @@ namespace Umbraco.Courier.RepositoryProviders.Webservices
 
         string path = LocalRepo.SaveResourceContents(itemId, itemType, resource, revisionAlias);
         return path;
-    }
+    }*/
 
 
 

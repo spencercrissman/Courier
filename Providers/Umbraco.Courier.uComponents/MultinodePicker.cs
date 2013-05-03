@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 
@@ -10,14 +11,22 @@ using Umbraco.Courier.DataResolvers;
 
 namespace Umbraco.Courier.uComponents
 {
-    public class MultinodePicker : PropertyDataResolverProvider
+    public class MultinodePicker : MultiPropertyDataResolverProvider
     {
-        public override Guid DataTypeId
+        public override IEnumerable<Guid> DataTypeIds
         {
-            get { return new Guid("c2d6894b-e788-4425-bcf2-308568e3d38b"); }
+            get
+            {
+                return new Collection<Guid>()
+                           {
+                               new Guid("c2d6894b-e788-4425-bcf2-308568e3d38b"),
+                               new Guid("7e062c13-7c41-4ad9-b389-41d88aeef87c")
+                           };
+            }
         }
 
         string dataXpath = "//nodeId";
+
 
         public override void ExtractingProperty(Core.Item item, ContentProperty propertyData)
         {
@@ -26,6 +35,7 @@ namespace Umbraco.Courier.uComponents
                                                             dataXpath,
                                                             IdentifierReplaceDirection.FromGuidToNodeId);
         }
+
 
         public override void PackagingProperty(Core.Item item, ContentProperty propertyData)
         {
@@ -77,5 +87,7 @@ namespace Umbraco.Courier.uComponents
                                                                 IdentifierReplaceDirection.FromGuidToNodeId);
             }
         }
+
+        
     }
 }

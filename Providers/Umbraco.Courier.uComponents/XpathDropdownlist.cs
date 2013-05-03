@@ -1,20 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using Umbraco.Courier.DataResolvers;
 
 namespace Umbraco.Courier.uComponents.XpathLists
 {
-    public class XpathDropdownList : PropertyDataResolverProvider
+    public class XpathDropdownList : MultiPropertyDataResolverProvider
     {
-        public override Guid DataTypeId
+
+        public override IEnumerable<Guid> DataTypeIds
         {
             get
             {
-                return new Guid("57a62843-c488-4c29-8125-52f51873613e");
+                return new Collection<Guid>()
+                           {
+                               new Guid("57a62843-c488-4c29-8125-52f51873613e"), new Guid("173a96ae-00ed-4a7c-9f76-4b53d4a0a1b9")
+                           };
             }
         }
+
 
         string dataXpath = "//nodeId";
 

@@ -55,9 +55,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="uComponents.Core">
-      <HintPath>..\3rd party assemblies\uComponents.Core.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ImageDropdownlist.cs" />

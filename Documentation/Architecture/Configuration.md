@@ -23,18 +23,6 @@ Strip the raw byte data from .courier files before transfering
 
 	<stripResourcesFromCourierFiles>false</stripResourcesFromCourierFiles>
 
-###Ignore unpublished content
-Dont transer content changes not yet published, if turned off, it will transfer unpublished changes, but not publish them
-
-	<ignoreUnpublishedVersions>true</ignoreUnpublishedVersions>
-
-###enableShortFileNames
-Uses the shortest possible unique name for files, instead of a name / guid combo
-
-	<enableShortFileNames>true</enableShortFileNames>
-
-
-
 ##Path settings
 ###Root folder
 The root folder containing all Couriers data. This folder needs changed, if Courier runs outside of the standard umbraco webcontext. 
@@ -74,11 +62,11 @@ If there is an issue with a specific provider, no matter what type of provider. 
 This is done by adding its full namespace and class to the configuration, you can ignore any item provider, data resolver, repository provider or any other functionality that’s loaded through Couriers provider model.
 
 	<ignore>
-	    <!-- Ignore the lucene indexer -->
-	    <add>Umbraco.Courier.DataResolvers.Events.UpdateLuceneIndexes</add>
-	    <!-- ignore all ucomponents data resolvers -->
-	    <add>Umbraco.Courier.uComponents.*</add>
-	    <!--<add>my.namespace.*</add>-->
+	 <!--�Ignore�the�lucene�indexer�-->
+	 <add>Umbraco.Courier.DataResolvers.Events.UpdateLuceneIndexes</add>
+	 <!--ignore�all�ucomponents�data�resolvers�-->
+	 <add>Umbraco.Courier.uComponents.*</add>
+	 <!--<add>my.namespace.*</add>-->
 	</ignore>
 
 

@@ -14,7 +14,8 @@ namespace Umbraco.Courier.RepositoryProviders
         public static Guid NetworkShareRepositoryProviderGuid = new Guid("e0472598-e73b-11df-9492-0800200c9a66");
         public static Guid CompressedNetworkShareRepositoryProviderGuid = new Guid("e0472599-e73b-11df-9492-0800200c9a66");
         public static Guid LocalProviderId = new Guid("e0472598-e73b-11df-9492-0800200c9a67");
-       
+
+        public static Guid LocalProviderWithSettingsId = new Guid("e0472598-e74b-11df-9492-0800200c9a67");
 
 		#endregion Fields 
     }

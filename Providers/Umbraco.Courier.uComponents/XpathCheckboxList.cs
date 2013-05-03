@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using Umbraco.Courier.DataResolvers;
 
 namespace Umbraco.Courier.uComponents.XpathLists
 {
-    public class XpathCheckboxList : PropertyDataResolverProvider
+    public class XpathCheckboxList : MultiPropertyDataResolverProvider
     {
-        public override Guid DataTypeId
+        public override IEnumerable<Guid> DataTypeIds
         {
             get
             {
-                return new Guid("d2d46927-f4f8-4b1b-add7-661cc09a0539");
+                return new Collection<Guid>()
+                           {
+                                new Guid("d2d46927-f4f8-4b1b-add7-661cc09a0539"), new Guid("34451d92-d270-49ba-8c7f-ee55bfeee1cb")
+                           };
             }
         }
+
 
         string dataXpath = "//nodeId";
 
@@ -35,5 +40,6 @@ namespace Umbraco.Courier.uComponents.XpathLists
                     item.Dependencies.Add(guid, Courier.ItemProviders.ProviderIDCollection.documentItemProviderGuid);
             }
         }
+
     }
 }

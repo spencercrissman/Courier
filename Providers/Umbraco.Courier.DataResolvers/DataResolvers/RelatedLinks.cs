@@ -12,7 +12,11 @@ namespace Umbraco.Courier.DataResolvers
 {
     public class RelatedLinks : ItemDataResolverProvider
     {
-        private Guid[] RelatedLinksGuid = new Guid[] { new Guid("71b8ad1a-8dc2-425c-b6b8-faa158075e63"), new Guid("c9525f23-7b7a-4dab-baeb-08f957bddd50") };
+        private Guid[] RelatedLinksGuid = new Guid[] 
+                                                { new Guid("71b8ad1a-8dc2-425c-b6b8-faa158075e63"), 
+                                                  new Guid("c9525f23-7b7a-4dab-baeb-08f957bddd50"),
+                                                    new Guid("4848424b-ec2c-45f7-a9aa-712bc703b75e") 
+                                                };
 
         public override List<Type> ResolvableTypes
         {
@@ -52,7 +56,7 @@ namespace Umbraco.Courier.DataResolvers
 
                                 if (int.TryParse(link.Value, out nodeId))
                                 {
-                                    Guid nodeGuid = PersistenceManager.Default.GetUniqueId(nodeId, NodeObjectTypes.Document);
+                                    Guid nodeGuid = PersistenceManager.Default.GetUniqueId(nodeId);
                                     if (nodeGuid != null)
                                     {
                                         link.Value = nodeGuid.ToString();

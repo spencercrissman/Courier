@@ -45,28 +45,29 @@ namespace Umbraco.Courier.DataResolvers
                     if (cp.Value != null && uploadDataTypes.Values.Contains(cp.DataTypeEditor.ToString()))
                     {
                         string file = cp.Value.ToString();
-
+                        string dir = IO.DirectoryPart(file);
+                        
                         if (!string.IsNullOrEmpty(file))
                         {
-                            if (System.IO.File.Exists(Umbraco.Courier.Core.Context.Current.MapPath(file)) || HostingEnvironment.VirtualPathProvider.FileExists(file))
+                            if (IO.FileExists(file))
                             {
                                 var fi = new FileInfo(Umbraco.Courier.Core.Context.Current.MapPath(file));
                                 string ext = fi.Extension.ToLower().Trim('.');
 
                                 //add file as a resource
-                                item.Resources.Add(IO.MakeRelative(fi.FullName));
+                                item.Resources.Add(file);
 
-                                //TODO get all the thumbnails in all sizes as well for this file
                                 if (umbraco.UmbracoSettings.ImageFileTypes.ToLower().Contains(ext))
                                 {
                                     string name = fi.Name.Substring(0, (fi.Name.LastIndexOf('.')));
+                                    
 
-                                    foreach (VirtualFile img in HostingEnvironment.VirtualPathProvider.GetDirectory(IO.MakeRelative(fi.Directory.FullName)).Files)
+                                    foreach (VirtualFile img in HostingEnvironment.VirtualPathProvider.GetDirectory(dir).Files)
                                     {
                                         //it's not the same file, but has the same start, hence it's a thumbnail
                                         if (img.Name != fi.Name && img.Name.StartsWith(name))
                                         {
-                                            string relPath = IO.MakeRelative(Path.Combine(fi.Directory.FullName, img.Name));
+                                            string relPath = dir + img.Name;;
 
                                             //add file as a resource
                                             item.Resources.Add(relPath);

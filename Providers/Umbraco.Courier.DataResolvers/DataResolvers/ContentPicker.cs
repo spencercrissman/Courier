@@ -87,7 +87,7 @@ namespace Umbraco.Courier.DataResolvers
 
                         //a media picker either stores IDs as a single int or comma seperated
                         string[] vals = cp.Value.ToString().Split(',');
-                        string[] contentPath = cpd.ContentPath.Split(',');
+                     //   string[] contentPath = cpd.ContentPath.Split(',');
 
                         string newVals = string.Empty;
 

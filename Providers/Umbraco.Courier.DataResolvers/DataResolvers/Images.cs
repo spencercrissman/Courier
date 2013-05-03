@@ -1,14 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using Umbraco.Courier.Core;
-using Umbraco.Courier.Core.Helpers;
-using System.Text.RegularExpressions;
-using System.IO;
-using System.Text;
 using Umbraco.Courier.ItemProviders;
-using System.Xml;
 
 namespace Umbraco.Courier.DataResolvers {
     public class Images : ItemDataResolverProvider {
@@ -34,8 +28,6 @@ namespace Umbraco.Courier.DataResolvers {
         
         public override void Packaging(Item item) {
 
-            
-
             if (item.GetType() == typeof(ContentPropertyData)) {
                 ContentPropertyData cpd = (ContentPropertyData)item;
                 foreach (var prop in cpd.Data.Where(x => x.Value != null && macroDataTypes.Contains(x.DataTypeEditor.ToString().ToLower()))) {
@@ -48,17 +40,20 @@ namespace Umbraco.Courier.DataResolvers {
             List<string> imgs = Umbraco.Courier.Core.Helpers.Dependencies.ReferencedImageFilessInstring(str);
             imgs.AddRange(Umbraco.Courier.Core.Helpers.Dependencies.ReferencedPagessInstring(str));
 
-            string mediaRoot = umbraco.IO.SystemDirectories.Media;
+            string mediaRoot = umbraco.IO.SystemDirectories.Media.TrimStart('~').ToLower();
             
-            foreach (var img in imgs) {
+            foreach (var img in imgs)
+            {
 
-                if (img.ToLower().StartsWith("http://") || img.ToLower().StartsWith("https://"))
+                var path = img.ToLower().TrimStart('~');
+
+                if (path.StartsWith("http://") || path.StartsWith("https://"))
                     continue;
 
-                if (img.ToLower().StartsWith(mediaRoot.ToLower()))
+                if (path.StartsWith(mediaRoot))
                 {
                     string imagePath = img.TrimStart('~');
-                    
+
                     if (imagePath.Contains('_'))
                         imagePath = imagePath.Substring(0, imagePath.LastIndexOf('_'));
                     

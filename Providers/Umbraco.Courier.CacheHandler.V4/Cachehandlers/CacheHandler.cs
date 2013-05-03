@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Umbraco.Courier.Core.ProviderModel;
+using umbraco;
 using umbraco.BusinessLogic;
 using umbraco.cms.businesslogic.web;
 using umbraco.cms.businesslogic.media;
@@ -9,6 +11,7 @@ using umbraco.cms.businesslogic.template;
 using umbraco.cms.businesslogic.macro;
 using Umbraco.Courier.Core;
 using Umbraco.Courier.Core.Interfaces;
+using Umbraco.Courier.Core.Helpers;
 
 namespace Umbraco.Courier.Cachehandler.V4
 {
@@ -16,35 +19,61 @@ namespace Umbraco.Courier.Cachehandler.V4
     {
         public CacheHandler()
         {
-            Source = new Repository(Umbraco.Courier.Core.ProviderModel.RepositoryProviderCollection.Instance.Default);
-            Source.Provider.SessionKey = Guid.NewGuid().ToString();
+            if (Settings.EnableCaching)
+            {
+                Source = new Repository(Umbraco.Courier.Core.ProviderModel.RepositoryProviderCollection.Instance.Default);
+                Source.Provider.SessionKey = Guid.NewGuid().ToString();
 
-            Document.AfterPublish += new Document.PublishEventHandler(Document_AfterPublish);
-            Document.AfterSave += new Document.SaveEventHandler(Document_AfterSave);
+                Document.AfterPublish += new Document.PublishEventHandler(Document_AfterPublish);
+                Document.AfterSave += new Document.SaveEventHandler(Document_AfterSave);
+                Document.AfterUnPublish += Document_AfterUnPublish;
+                content.AfterUpdateDocumentCache += content_AfterUpdateDocumentCache;
 
-            Media.AfterSave += new Media.SaveEventHandler(Media_AfterSave);
-            Template.AfterSave += new Template.SaveEventHandler(Template_AfterSave);
-            DocumentType.AfterSave += new DocumentType.SaveEventHandler(DocumentType_AfterSave);
-            Macro.AfterSave += new Macro.SaveEventHandler(Macro_AfterSave);
-            StyleSheet.AfterSave += new StyleSheet.SaveEventHandler(StyleSheet_AfterSave);
+                Media.AfterSave += new Media.SaveEventHandler(Media_AfterSave);
+                Template.AfterSave += new Template.SaveEventHandler(Template_AfterSave);
+                DocumentType.AfterSave += new DocumentType.SaveEventHandler(DocumentType_AfterSave);
+                Macro.AfterSave += new Macro.SaveEventHandler(Macro_AfterSave);
+                StyleSheet.AfterSave += new StyleSheet.SaveEventHandler(StyleSheet_AfterSave);
 
-            umbraco.cms.businesslogic.language.Language.AfterSave += new umbraco.cms.businesslogic.language.Language.SaveEventHandler(Language_AfterSave);
-            umbraco.cms.businesslogic.Dictionary.DictionaryItem.Saving += new umbraco.cms.businesslogic.Dictionary.DictionaryItem.SaveEventHandler(DictionaryItem_Saving);
+                umbraco.cms.businesslogic.language.Language.AfterSave +=
+                    new umbraco.cms.businesslogic.language.Language.SaveEventHandler(Language_AfterSave);
+                umbraco.cms.businesslogic.Dictionary.DictionaryItem.Saving +=
+                    new umbraco.cms.businesslogic.Dictionary.DictionaryItem.SaveEventHandler(DictionaryItem_Saving);
 
-            Document.AfterDelete += new Document.DeleteEventHandler(Document_AfterDelete);
-            Document.AfterMoveToTrash += new Document.MoveToTrashEventHandler(Document_AfterMoveToTrash);
+                Document.AfterDelete += new Document.DeleteEventHandler(Document_AfterDelete);
+                Document.AfterMoveToTrash += new Document.MoveToTrashEventHandler(Document_AfterMoveToTrash);
 
-            Media.AfterMoveToTrash += new Media.MoveToTrashEventHandler(Media_AfterMoveToTrash);
-            Media.AfterDelete += new Media.DeleteEventHandler(Media_AfterDelete);
+                Media.AfterMoveToTrash += new Media.MoveToTrashEventHandler(Media_AfterMoveToTrash);
+                Media.AfterDelete += new Media.DeleteEventHandler(Media_AfterDelete);
 
-            Template.AfterDelete += new Template.DeleteEventHandler(Template_AfterDelete);
-            DocumentType.AfterDelete += new DocumentType.DeleteEventHandler(DocumentType_AfterDelete);
-            Macro.AfterDelete += new Macro.DeleteEventHandler(Macro_AfterDelete);
+                Template.AfterDelete += new Template.DeleteEventHandler(Template_AfterDelete);
+                DocumentType.AfterDelete += new DocumentType.DeleteEventHandler(DocumentType_AfterDelete);
+                Macro.AfterDelete += new Macro.DeleteEventHandler(Macro_AfterDelete);
 
-            StyleSheet.AfterDelete += new StyleSheet.DeleteEventHandler(StyleSheet_AfterDelete);
+                StyleSheet.AfterDelete += new StyleSheet.DeleteEventHandler(StyleSheet_AfterDelete);
 
-            umbraco.cms.businesslogic.language.Language.AfterDelete += new umbraco.cms.businesslogic.language.Language.DeleteEventHandler(Language_AfterDelete);
-            umbraco.cms.businesslogic.Dictionary.DictionaryItem.Deleting += new umbraco.cms.businesslogic.Dictionary.DictionaryItem.DeleteEventHandler(DictionaryItem_Deleting);
+                umbraco.cms.businesslogic.language.Language.AfterDelete +=
+                    new umbraco.cms.businesslogic.language.Language.DeleteEventHandler(Language_AfterDelete);
+                umbraco.cms.businesslogic.Dictionary.DictionaryItem.Deleting +=
+                    new umbraco.cms.businesslogic.Dictionary.DictionaryItem.DeleteEventHandler(DictionaryItem_Deleting);
+            }
+        }
+
+        void content_AfterUpdateDocumentCache(Document sender, umbraco.cms.businesslogic.DocumentCacheEventArgs e)
+        {
+            ItemIdentifier itemId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.documentItemProviderGuid);
+            //ItemIdentifier propertyId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.propertyDataItemProviderGuid);
+
+            sendToCache(new[] { itemId });
+        }
+
+     
+        void Document_AfterUnPublish(Document sender, umbraco.cms.businesslogic.UnPublishEventArgs e)
+        {
+            ItemIdentifier itemId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.documentItemProviderGuid);
+            ItemIdentifier propertyId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.propertyDataItemProviderGuid);
+
+            sendToCache(new[] { itemId, propertyId });
         }
 
 
@@ -142,28 +171,26 @@ namespace Umbraco.Courier.Cachehandler.V4
         void Media_AfterSave(Media sender, umbraco.cms.businesslogic.SaveEventArgs e)
         {
             ItemIdentifier itemId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.mediaItemProviderGuid);
-            sendToCache(itemId);
-
             ItemIdentifier propertyId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.mediapropertyDataItemProviderGuid);
-            sendToCache(propertyId);
+            
+            sendToCache(new[] { itemId, propertyId });
         }
 
         void Document_AfterPublish(Document sender, umbraco.cms.businesslogic.PublishEventArgs e)
         {
             ItemIdentifier itemId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.documentItemProviderGuid);
-            sendToCache(itemId);
-            
             ItemIdentifier propertyId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.propertyDataItemProviderGuid);
-            sendToCache(propertyId);
+            
+
+            sendToCache(new[] { itemId, propertyId });
         }
 
         void Document_AfterSave(Document sender, umbraco.cms.businesslogic.SaveEventArgs e)
         {
             ItemIdentifier itemId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.documentItemProviderGuid);
-            sendToCache(itemId);
-
             ItemIdentifier propertyId = new ItemIdentifier(sender.UniqueId.ToString(), ItemProviders.ProviderIDCollection.propertyDataItemProviderGuid);
-            sendToCache(propertyId);
+            
+            sendToCache(new[]{itemId,propertyId});
         }
 
         void DictionaryItem_Saving(umbraco.cms.businesslogic.Dictionary.DictionaryItem sender, EventArgs e)
@@ -182,39 +209,41 @@ namespace Umbraco.Courier.Cachehandler.V4
             sendToCache(itemId);
         }
 
-        private bool runAsync = false;
         private static Repository Source = null; 
-        private void sendToCache(Core.ItemIdentifier itemId)
+        private void sendToCache(ItemIdentifier itemId)
         {
-            if (runAsync)
+            sendToCache(new[]{itemId});
+        }
+
+        private static void sendToCache(IEnumerable<ItemIdentifier> ids)
+        {
+            try
             {
-                fileSaver fs = new fileSaver(this._sendToCache);
-                fs.BeginInvoke(itemId, null, null);
+                foreach (var id in ids)
+                {
+                    if (Core.Cache.ItemCacheManager.Instance.IsCacheable(id))
+                    {
+                        Source.Provider.SessionKey = Guid.NewGuid().ToString();
+                        var provider = ItemProviderCollection.Instance.GetProvider(id.ProviderId);
+                        Umbraco.Courier.Core.Cache.ItemCacheManager.Instance.ClearItem(id, provider);
+                        var item = ((IPackagingTarget) Source.Provider).Package(id);
+
+                        //store in internal courier cache
+                        Umbraco.Courier.Core.Cache.ItemCacheManager.Instance.StoreItemAsync(item, provider);
+                    }
+                }
+
+                ((IPackagingTarget)Source.Provider).CloseSession(Source.Provider.SessionKey);
+
+
             }
-            else
+            catch (Exception ex)
             {
-                _sendToCache(itemId);
+                Logging._Error(ex.ToString());
             }
         }
 
-        delegate void fileSaver(ItemIdentifier itemId);
-        private void _sendToCache(ItemIdentifier itemId)
-        {
-            if (Core.Cache.ItemCacheManager.Instance.IsCacheable(itemId))
-            {
-                Source.Provider.SessionKey = Guid.NewGuid().ToString();
 
-                var provider = Core.ProviderModel.ItemProviderCollection.Instance.GetProvider(itemId.ProviderId);
-                Core.Cache.ItemCacheManager.Instance.ClearItem(itemId, provider);
-
-                //getting the item from the repo
-                Item it = ((IPackagingTarget)Source.Provider).Package(itemId);
-
-                //store in cache
-                Core.Cache.ItemCacheManager.Instance.StoreItemAsync(it, it.Provider);
-            }
-
-        }
 
         private void clearCache(ItemIdentifier itemId)
         {

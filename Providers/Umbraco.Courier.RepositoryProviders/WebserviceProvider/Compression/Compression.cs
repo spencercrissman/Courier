@@ -12,6 +12,7 @@ namespace Umbraco.Courier.RepositoryProviders.WebserviceProvider.Compression
 
         public static byte[] Compress(byte[] data)
         {
+
             return data;
             /*
             using (var compressedStream = new MemoryStream())
