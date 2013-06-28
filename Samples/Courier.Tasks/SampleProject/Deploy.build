@@ -2,8 +2,8 @@
 <project name="umbraco" default="deploy" basedir=".">
     <description>Build the Umbraco Contour Application</description>
 
-    <!-- global properties, generally won't change -->
-    <property name="nant.settings.currentframework" value="net-2.0" />
+  <!-- global properties, generally won't change -->
+  <property name="nant.settings.currentframework" value="net-2.0" />
 
   <property name="root.dir" value="${directory::get-current-directory()}" />
   
@@ -12,28 +12,21 @@
   <property name="config.dir" value="${root.dir}\config" />
   <property name="courier.config" value="${config.dir}\courier.config" />
 
-
   
   <target name="deploy" depends="collect">
-
     <extract config="${courier.config}" target="clean" revision="infrastructure" />
-
     <extract config="${courier.config}" target="clean" revision="content" />    
-
   </target>
 
-
-
   <target name="collect" depends="init">
-    
     <package config="${courier.config}" source="cws" target="clean" revision="infrastructure" manifest="${manifests.dir}\infrastructure.xml" />
-
     <package config="${courier.config}" source="cws" target="clean" revision="content" manifest="${manifests.dir}\content.xml" />    
-  
   </target>
    
 
   <target name="init" description="init tasks for the build">
       
   </target>
+
+
 </project>
