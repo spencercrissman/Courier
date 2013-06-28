@@ -219,15 +219,18 @@ namespace Umbraco.Courier.Cachehandler.V4
         {
             try
             {
+                var sessionKey = Guid.NewGuid().ToString();
+
                 foreach (var id in ids)
                 {
                     if (Core.Cache.ItemCacheManager.Instance.IsCacheable(id))
                     {
-                        Source.Provider.SessionKey = Guid.NewGuid().ToString();
+                        Source.Provider.SessionKey = sessionKey;
                         var provider = ItemProviderCollection.Instance.GetProvider(id.ProviderId);
                         Umbraco.Courier.Core.Cache.ItemCacheManager.Instance.ClearItem(id, provider);
-                        var item = ((IPackagingTarget) Source.Provider).Package(id);
 
+                        var item = ((IPackagingTarget) Source.Provider).Package(id);
+                      
                         //store in internal courier cache
                         Umbraco.Courier.Core.Cache.ItemCacheManager.Instance.StoreItemAsync(item, provider);
                     }

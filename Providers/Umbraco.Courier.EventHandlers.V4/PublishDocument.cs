@@ -6,6 +6,7 @@ using Umbraco.Courier.Core.ProviderModel;
 using Umbraco.Courier.Core;
 using System.Xml;
 using System.Xml.Linq;
+using umbraco.BusinessLogic;
 
 namespace Umbraco.Courier.DataResolvers.ItemEventProviders
 {
@@ -26,6 +27,7 @@ namespace Umbraco.Courier.DataResolvers.ItemEventProviders
                     umbraco.cms.businesslogic.web.Document d = new umbraco.cms.businesslogic.web.Document(g);
                     if (d != null && d.Published && d.ReleaseDate < DateTime.Now)
                     {
+                     //   d.Publish(new User(0));
                         d.XmlGenerate(new XmlDocument());
                         umbraco.library.UpdateDocumentCache(d.Id);
                     }

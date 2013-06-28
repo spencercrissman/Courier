@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-﻿// -----------------------------------------------------------------------
-// <copyright file="Deploy.cs" company="">
-// TODO: Update copyright text.
-// </copyright>
-// -----------------------------------------------------------------------
-
-namespace Courier.Tasks
-=======
 ﻿namespace Courier.Tasks
->>>>>>> 2.7.7 merge error update
 {
     using System;
     using System.Collections.Generic;
@@ -20,14 +10,7 @@ namespace Courier.Tasks
     using Umbraco.Courier.Core.Packaging;
     using NAnt.Core.Attributes;
     using Umbraco.Courier.Core.Collections.Manifests;
-<<<<<<< HEAD
-
-    /// <summary>
-    /// TODO: Update summary.
-    /// </summary>
-=======
     
->>>>>>> 2.7.7 merge error update
     [TaskName("package")]
     public class Package : NAnt.Core.Task
     {
@@ -49,27 +32,12 @@ namespace Courier.Tasks
 
         protected override void ExecuteTask()
         {
-<<<<<<< HEAD
-            Console.WriteLine("");
-            Console.WriteLine("-------------------");
-=======
->>>>>>> 2.7.7 merge error update
             Console.WriteLine("Application: " + application);
             Console.WriteLine("Config: " + Config);
             Console.WriteLine("plugins: " + plugins);
 
             init();
 
-<<<<<<< HEAD
-            foreach (var repo in Umbraco.Courier.Core.ProviderModel.RepositoryProviderCollection.Instance.GetProviders())
-            {
-                Console.WriteLine("Repo provider loaded: " + repo.Name + "/" + repo.GetType().ToString());
-            }
-            Console.WriteLine("-------------------");
-            
-            
-=======
->>>>>>> 2.7.7 merge error update
             Repository target = null;
             Repository source = null;
 
@@ -79,20 +47,11 @@ namespace Courier.Tasks
                 if(!string.IsNullOrEmpty(Target))
                     target = rs.GetByAlias(Target);
             }
-<<<<<<< HEAD
-            
-            if(source == null)
-                Console.WriteLine("Could not find source: " + Source);
 
-            if (target == null)
-                Console.WriteLine("Could not find target: " + Source);
-            
-=======
-
->>>>>>> 2.7.7 merge error update
             var engine = new RevisionPackaging(Revision);
             engine.Source = source;
             
+
             engine.StoredItem += new EventHandler<ItemEventArgs>(engine_StoredItem);
             engine.SkippedItem += new EventHandler<ItemEventArgs>(engine_SkippedItem);
             
@@ -102,25 +61,6 @@ namespace Courier.Tasks
                 engine.EnableInstantCompare(target);
             }
 
-<<<<<<< HEAD
-
-            Console.WriteLine("Loading manifest...");
-            var manifest = RevisionManifest.Load( Manifest );
-            if (manifest == null)
-                Console.WriteLine("Manifest file not found: " + Manifest);
-            else
-            {
-                engine.AddToQueue(manifest);
-
-                Console.WriteLine("Starting packaging...");
-                engine.Package();
-                engine.Dispose();
-
-                Console.ResetColor();
-
-                Console.WriteLine("All done, yay!");
-            }
-=======
             Console.WriteLine("Loading manifest...");
             var manifest = RevisionManifest.Load( Manifest );
             engine.AddToQueue(manifest);
@@ -132,7 +72,6 @@ namespace Courier.Tasks
             Console.ResetColor();
 
             Console.WriteLine("All done, yay!");
->>>>>>> 2.7.7 merge error update
         }
 
         void engine_SkippedItem(object sender, ItemEventArgs e)
@@ -165,10 +104,6 @@ namespace Courier.Tasks
 
             //finally we need to redirect the revisions root for correct mapping
             Umbraco.Courier.Core.Context.Current.BaseDirectory = directory;
-<<<<<<< HEAD
-
-=======
->>>>>>> 2.7.7 merge error update
             Umbraco.Courier.Core.Context.Current.HasHttpContext = false;
         }
 

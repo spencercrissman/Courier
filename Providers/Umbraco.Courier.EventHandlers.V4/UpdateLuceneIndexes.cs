@@ -92,6 +92,10 @@ namespace Umbraco.Courier.EventHandlers.V4
             umbraco.cms.businesslogic.media.Media m = new umbraco.cms.businesslogic.media.Media(mediaGuid);
             if (m != null)
             {
+                //first, clear the cache
+                umbraco.library.ClearLibraryCacheForMedia(m.Id);
+
+
                 XmlNode n = m.ToXml(new XmlDocument(), true);
                 if (n != null)
                 {
