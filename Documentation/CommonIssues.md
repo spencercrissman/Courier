@@ -35,6 +35,17 @@ http://nightly.umbraco.org/UmbracoCourier/2.7.8/nightly%20builds/
 
 And copy to /bin
 
+###Courier cannot pacage data type, Could not load assembly for type
+*Caused by* Courier not able to find a data types assembly or .cs class file which contains the Interface used
+by the data type
+
+*How to spot* Courier returns "cannot package GUID from datatypes provider" 
+
+*Solution* Make sure you have all your datatype dependencies in place, usually its ucomponents and similiear projects
+that are missing dlls, also, if you dont use a datatype, delete it from your site, so you dont accidently 
+transfer a broken datatype. Make sure to clear courier cache and restart application.
+
+
 ###Courier cannot package items on V4
 *Caused by:* Missing dlls or dlls from the wrong courier version
 
