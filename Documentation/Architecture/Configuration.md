@@ -6,6 +6,14 @@ Core settings are configuration options which covers the entire Courier applicat
 
 **For provider configuration:** look under the appropriate provider type in documentation
 
+##Cache Settings
+Courier keeps an ongoing cache of items to speed up transfers, this can be turned off:
+
+	<cache>
+		<enable>False</enable>
+	</cache>
+
+
 ##Transfer settings
 
 ###Timeout
