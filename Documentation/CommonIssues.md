@@ -9,7 +9,7 @@ For all issues, alwasy try these steps first:
 - Ensure you have the latest version, current 2.7.8.14
 
 ###Get the latest version here:
-Nigthly.umbraco.org contains all builds, current recommended version is **2.7.8.14** which contains all the latest 
+Nigthly.umbraco.org contains all builds, current recommended version is **2.7.8.35** which contains all the latest 
 bug fixes for v4 and v6
 
 http://nightly.umbraco.org/UmbracoCourier/2.7.8/nightly%20builds/
